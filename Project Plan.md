@@ -54,7 +54,7 @@ Identify all key stakeholders involved in the project, including internal teams 
 
 ### 1.3 Project Scope
 
-Define and manage what is included or excluded in the project and product.
+The project scope focuses on planning and designing the desktop application. The team will start by analysing the dataset to determine the application's requirements. We will then design the user interface, create layouts and prototypes to ensure the tool is user-friendly and meets project goals. Alongside UI design, we will plan the software's structure, and decide how different parts will connect and function.
 
 ## 2. Work Breakdown Structure
 
