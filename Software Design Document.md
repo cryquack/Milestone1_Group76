@@ -9,7 +9,7 @@
 |----------------|-----------|
 | s5399572        | Crystal Quach |
 | s5339515        | Bakary Fall | 
-| s333333        | Eric Lushchayev | 
+| s5260546        | Eric Lushchayev | 
 
 
 <div style="page-break-after: always;"></div>
