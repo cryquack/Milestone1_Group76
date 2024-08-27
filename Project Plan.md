@@ -51,13 +51,14 @@ In the first phase, the focus will be on designing the toolm including the layou
 ### 1.2 Project Stakeholders
 
 The project success hinges on the active involvement of several key stakeholders, each playing a distinct role in ensuring the project meets its objectives and delivers a high-quality product. For this project here are the stakeholders needed:
-* Project manager: The project manager oversee the entire project, ensuring it stays on schedule, within budget, and meets all objectives/requirements. The project manager coordinate the effort of the team, manage resources, and act as the main point of contact between the project team and other stakeholders. The project manager is also responsible for keeping the project aligned with its goals and ensuring the milestones are achieved on time.
+* **Project manager**: The project manager oversee the entire project, ensuring it stays on schedule, within budget, and meets all objectives/requirements. The project manager coordinate the effort of the team, manage resources, and act as the main point of contact between the project team and other stakeholders. The project manager is also responsible for keeping the project aligned with its goals and ensuring the milestones are achieved on time.
   
-* **Developers**: Developers are responsible
+* **Developers**: Developers are responsible for the implementation of the software. They will write the code, integrate, and ensure that the application functions according to the design specifications. Developers work closely with designers to bring the project from concept to reality, addressing any technical challenges that arise.
   
-* Designers
+* **Designers**: Designers focus on creating the interface and user experince of the application. They create layouts, wireframes, and prototypes to guide the development process and ensure that the end product meets user needs and expectations.
   
-* Front and End Users
+* **Front and End Users**: The Front users are mainly internal stakeholders (team members/testers) who interact with the software during the development phase. Their role is to provide feedback on the functionality and usability of the application, and identify any issues that needs improvement before the realse.
+On the other hand, End users are the people who will use the final application. Their needs are central to the design and functionality of the website/application. The project team aims to meets the end users' requirement, and their feedback is needed during the testing phase to ensure the website/application is practical and user-friendly.
 
 
 ### 1.3 Project Scope
