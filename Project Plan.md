@@ -45,7 +45,8 @@ Please Describe what you have accomplished in this group project.
 
 ### 1.1 Project Objectives
 
-Establish objectives or goals that the project aims to achieve.
+The objective of this project is to develop a desktop application that serves as a simple data analysis and visualisation tool. The project will be divided into two main phases which are the design phase and implementation. 
+In the first phase, the focus will be on designing the toolm including the layout, user interface, and the overall architecture. The design phase is crucial as it sets the foundation for the application, ensuring it is user-friendly and meets all specified requirements.
 
 ### 1.2 Project Stakeholders
 
