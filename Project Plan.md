@@ -9,7 +9,7 @@
 |-------------|-----------------|-----------------|----------------------------|
 | s5399572     | Crystal Quach  | cryquack        | 33.3% or Equal             |
 | s5339515    | Bakary Fall     | bakaryfall      | 33.3% or Equal             | 
-| s333333     | Eric Lushchayev | xxx             | 33.3% or Equal             | 
+| s5260546     | Eric Lushchayev | ericjl333             | 33.3% or Equal             | 
 
 ### Brief Description of Contribution
 
