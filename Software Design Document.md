@@ -8,7 +8,7 @@
 | Student Number | Name      | 
 |----------------|-----------|
 | s5399572        | Crystal Quach |
-| s222222        | Bakary Fall | 
+| s5339515        | Bakary Fall | 
 | s333333        | Eric Lushchayev | 
 
 
