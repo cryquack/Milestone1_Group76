@@ -50,9 +50,13 @@ In the first phase, the focus will be on designing the toolm including the layou
 
 ### 1.2 Project Stakeholders
 
-* Project team
-* Developers
+The project success hinges on the active involvement of several key stakeholders, each playing a distinct role in ensuring the project meets its objectives and delivers a high-quality product. For this project here are the stakeholders needed:
+* Project manager: The project manager oversee the entire project, ensuring it stays on schedule, within budget, and meets all objectives/requirements. The project manager coordinate the effort of the team, manage resources, and act as the main point of contact between the project team and other stakeholders. The project manager is also responsible for keeping the project aligned with its goals and ensuring the milestones are achieved on time.
+  
+* **Developers**: Developers are responsible
+  
 * Designers
+  
 * Front and End Users
 
 
