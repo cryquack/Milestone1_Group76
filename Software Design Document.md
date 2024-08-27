@@ -49,13 +49,13 @@
 
 ### 1.1 Problem Background
 
-- Problem Identification: What problem does this system solve?
+Problem Identification: What problem does this system solve?
 - Obtaining the detailed nutritional information for a wide range of foods commonly consumed globally
-- Dataset: What is the dataset used?
+Dataset: What is the dataset used?
 - 
-- Data Input/Output: What kind of data input and output is required?
+Data Input/Output: What kind of data input and output is required?
 - 
-- Target Users: Who will use the system, and why?
+Target Users: Who will use the system, and why?
 - The hospitality industry will use this system to source and display the nutritional content in the foods they provide to consumers
 - Dietitians will utilise this system in order to prepare dietary and nutritional advice to consumers seeking diet-related goals
 - Everyday users who may have specific dietary restrictions or requirements such as diabetes or food allergies may want to use this system to aquire their needed source of nutrients
