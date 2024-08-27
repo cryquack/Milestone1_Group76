@@ -1,6 +1,6 @@
 # Project Plan
 
-## Project Name: XXXX
+## Project Name: Comprehensive Nutritional Food Database Project
 ## Group Number: 76
 
 ### Team members
