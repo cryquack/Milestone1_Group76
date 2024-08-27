@@ -59,6 +59,8 @@ The project success hinges on the active involvement of several key stakeholders
   
 * **Front and End Users**: The Front users are mainly internal stakeholders (team members/testers) who interact with the software during the development phase. Their role is to provide feedback on the functionality and usability of the application, and identify any issues that needs improvement before the realse. On the other hand, End users are the people who will use the final application. Their needs are central to the design and functionality of the website/application. The project team aims to meets the end users' requirement, and their feedback is needed during the testing phase to ensure the website/application is practical and user-friendly.
 
+* **Investors**: Investors are external stakeholders who provide a company's capital to grow and expand its operations. Their primary interest is seeing their investment's value increase over time. They can monitor the project's progress and may offer input to ensure that the project's progress aligns with their expectations and financial goals.
+
 
 ### 1.3 Project Scope
 
