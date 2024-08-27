@@ -7,14 +7,14 @@
 
 | Student No. | Full Name       | GitHub Username | Contribution (sum to 100%) | 
 |-------------|-----------------|-----------------|----------------------------|
-| s111111     | Chrystal Quach  | cryquack        | 33.3% or Equal             |
+| s111111     | Crystal Quach  | cryquack        | 33.3% or Equal             |
 | s5339515    | Bakary Fall     | bakaryfall      | 33.3% or Equal             | 
 | s333333     | Eric Lushchayev | xxx             | 33.3% or Equal             | 
 
 ### Brief Description of Contribution
 
 Please Describe what you have accomplished in this group project.
-- s111111, Chrystal Quach
+- s111111, Crystal Quach
   - Accomplishments: Describe what you have completed or achieved
 - s5339515, Bakary Fall
   - Accomplishments: Describe what you have completed or achieved
