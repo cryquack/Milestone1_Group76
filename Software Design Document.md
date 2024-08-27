@@ -1,7 +1,7 @@
 # Software Design Document
 
-## Project Name: XXXX
-## Group Number: 001
+## Project Name: Comprehensive Nutritional Food Database Project
+## Group Number: 76
 
 ## Team members
 
