@@ -50,7 +50,11 @@ In the first phase, the focus will be on designing the toolm including the layou
 
 ### 1.2 Project Stakeholders
 
-Identify all key stakeholders involved in the project, including internal teams and potential end-users.
+* Project team
+* Developers
+* Designers
+* Front and End Users
+
 
 ### 1.3 Project Scope
 
