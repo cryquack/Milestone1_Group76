@@ -57,8 +57,7 @@ The project success hinges on the active involvement of several key stakeholders
   
 * **Designers**: Designers focus on creating the interface and user experince of the application. They create layouts, wireframes, and prototypes to guide the development process and ensure that the end product meets user needs and expectations.
   
-* **Front and End Users**: The Front users are mainly internal stakeholders (team members/testers) who interact with the software during the development phase. Their role is to provide feedback on the functionality and usability of the application, and identify any issues that needs improvement before the realse.
-On the other hand, End users are the people who will use the final application. Their needs are central to the design and functionality of the website/application. The project team aims to meets the end users' requirement, and their feedback is needed during the testing phase to ensure the website/application is practical and user-friendly.
+* **Front and End Users**: The Front users are mainly internal stakeholders (team members/testers) who interact with the software during the development phase. Their role is to provide feedback on the functionality and usability of the application, and identify any issues that needs improvement before the realse. On the other hand, End users are the people who will use the final application. Their needs are central to the design and functionality of the website/application. The project team aims to meets the end users' requirement, and their feedback is needed during the testing phase to ensure the website/application is practical and user-friendly.
 
 
 ### 1.3 Project Scope
