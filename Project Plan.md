@@ -70,7 +70,7 @@ The project scope focuses on planning and designing the desktop application. The
 
 Include the Work Breakdown Structure (WBS) for the entire project. WBS should be presented as a hierarchical diagram. Use the elements from the WBS to define activities in Section 3, and schedule these activities in the Gantt Chart in Section 4. Ensure all project activities are considered and included in the WBS.
 
-![WBS](./WBS.jpg)
+![WBS](./Diagram.png)
 
 ## 3. Activity Definition Estimation
 
