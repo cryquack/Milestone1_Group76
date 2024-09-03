@@ -109,14 +109,45 @@ Example:
 Include at least 5 use cases, each corresponding to a specific function.
 
 
-| Use Case ID    | UC-01  |
+| Use Case ID    | UC-01 |
 |----------------|------|
 | Use Case Name  | Food Search |
 | Actors         | Customer |
 | Description    | Users search for foods by name. This will provide them with the nutritional information |
-| Flow of Events | 1. System prompts for the food name <br/> 2. Customer inputs the food name required|
+| Flow of Events | 1. System prompts for the food name. <br/> 2. Customer inputs the food name they require. <br/> 3. The system provides options from a list based on the spelling |
 | Alternate Flow | xxxx |
 
+| Use Case ID    | UC-02 |
+|----------------|------|
+| Use Case Name  | xxxx |
+| Actors         | Customer |
+| Description    | xxxx |
+| Flow of Events | xxxx |
+| Alternate Flow | xxxx |
+
+| Use Case ID    | UC-03 |
+|----------------|------|
+| Use Case Name  | xxxx |
+| Actors         | Customer |
+| Description    | xxxx |
+| Flow of Events | xxxx |
+| Alternate Flow | xxxx |
+
+| Use Case ID    | UC-04 |
+|----------------|------|
+| Use Case Name  | xxxx |
+| Actors         | Customer |
+| Description    | xxxx |
+| Flow of Events | xxxx |
+| Alternate Flow | xxxx |
+
+| Use Case ID    | UC-05 |
+|----------------|------|
+| Use Case Name  | xxxx |
+| Actors         | Customer |
+| Description    | xxxx |
+| Flow of Events | xxxx |
+| Alternate Flow | xxxx |
 
 
 ## 3.	Software Design and System Components 
