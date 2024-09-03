@@ -109,12 +109,12 @@ Example:
 Include at least 5 use cases, each corresponding to a specific function.
 
 
-| Use Case ID    | xxx  |
+| Use Case ID    | UC-01  |
 |----------------|------|
-| Use Case Name  | xxxx |
-| Actors         | xxxx |
-| Description    | xxxx |
-| Flow of Events | xxxx |
+| Use Case Name  | Food Search |
+| Actors         | Customer |
+| Description    | Users search for foods by name. This will provide them with the nutritional information |
+| Flow of Events | 1. System prompts for the food name <br/> 2. Customer inputs the food name required|
 | Alternate Flow | xxxx |
 
 
