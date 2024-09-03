@@ -68,7 +68,7 @@ The project scope focuses on planning and designing the desktop application. The
 
 ## 2. Work Breakdown Structure
 
-The Work Breakdown Structure (WBS) for the Comprehensive Nutritional Food Database Project outlines the project's phases and associated tasks in a structured format to facilitate efficient project management. The project is divided into five main phases: Initialisation, Planning, Execution, Controlling and Closing. 
+The Work Breakdown Structure (WBS) for the Comprehensive Nutritional Food Database Project outlines the project's phases and associated tasks in a structured format to facilitate efficient project management. The project is divided into five main phases: Initialisation, Planning, Execution, Controlling and Closing. During Initialisation, key activities include assigning the project manager, developing the project charter, and meeting with stakeholders to ensure all foundational elements are in place. The Planning phase focuses on creating the scope plan, WBS, schedule, procurement plan, project management plan, and budget, setting the stage for a well-organised execution. The Execution phase involves detailed tasks like designing documentation, user interface (UI), and user experience (UX), followed by desktop application, backend, and graphical user interface (GUI) development, culminating in system testing. Controlling includes status reporting, performance testing, bug fixing, and updating plans to keep the project on track. Finally, the Closing phase wraps up with a final performance review and the preparation of a comprehensive final report. This structured approach ensures that all project aspects are systematically addressed to achieve the project objectives within the planned timeline.
 
 ![WBS](./Diagram.png)
 
