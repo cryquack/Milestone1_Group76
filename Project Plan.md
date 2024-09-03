@@ -76,11 +76,29 @@ Include the Work Breakdown Structure (WBS) for the entire project. WBS should be
 
 Define the activities required for your project based on the WBS, and assign responsibilities to team members. Each activity should be numbered and correspond with your Gantt chart. Provide estimated durations for each activity to facilitate Gantt chart preparation.
 
-| Activity #No | Activity Name | Brief Description | Duration | Responsible Team Members |
-|--------------|---------------|-------------------|----------|--------------------------|
-| xxx          | xxx           | xxx               | xxx      | xxx \& yyy               |
-| xxxx         | xxx           | xxx               | xxx      | All                      |
-| xxxx         | xxx           | xxx               | xxx      | xxx                      |
+| Activity #No | Activity Name                              | Brief Description                                                                                          | Duration | Responsible Team Members    |
+|--------------|--------------------------------------------|------------------------------------------------------------------------------------------------------------|----------|-----------------------------|
+| 1.1          | Assign Project Manager                     | Identify and appoint a project manger to oversee the project's execution.                                  | 1 day    | xxx \& yyy                  |
+| 1.2          | Develop project charter                    | Create a project charter to outline the project's objectives, scope, stakeholders, and timeline.           | 2 days   | Project Manager             |
+| 1.3          | Meet with stakeholders                     | Conduct meetings with stakeholders to understand their needs and expectations for the project.             | 2 days   | Project Manager             |
+| 2.1          | Create scope plan                          | Define the project scope.                                                                                  | 2 days   | Project Manager             |
+| 2.2          | Create WBS and Schedule                    | Develop a Work Breakdown Structure and schedule to organise project tasks and timeline.                    | 1 day    | Project Manager             |
+| 2.3          | Create procurement plan                    | Plan for the acquisition of necessary software, hardware, and other resources.                             | 1 day    | All                         |
+| 2.4          | Create project management plan             | Develop a comprehensive project management plan covering communication, risk, quality, and resource management. | 2 days   | Project Manager             |
+| 2.5          | Create Budget                              | Estimate the project costs and prepare a budget to manage financial resources effectively.                 | 1 day    | Project Manager             |
+| 3.1          | Design Documentation                       | Develop detailled design documents that outline the system, features, and technical requirements           | 3 days   | Designers                   |
+| 3.2          | Design User Interface (UI)                 | Create wireframes and UI mockups to visualise the layout and user interactions of the application.         | 4 days   | Designers                   |
+| 3.3          | Design User Experience (UX)                | Design the UX, ensuring that the application is intuitive, accessible, and user-friendly.                  | 3 days   | Designers                   |
+| 3.4          | Desktop application Development            | Develop the desktop application software, implementing core functionalities according to design specifications. | 5 days   | Developers                  |
+| 3.5          | Back End Development                       | Build and configure backend systems, including databases and server-side logic, to support functionalities. | 4 days   | Developers                  |
+| 3.6          | Graphical User Interface (GUI) Development | Develop and integrate graphical user interface, ensuring that the visual components are fully functional.  | 4 days   | Developers                  |
+| 3.7          | Test New System                            | Conduct comprehensive testing of the new system.                                                           | 5 days   | Front Users                 |
+| 4.1          | Status Reports                             | Reguraly prepare and distribute status reports to stakeholders, providing updates on the project project.  | 2 days   | Project Manager             |
+| 4.2          | Perform Testing                            | Monitoring ongoing testing activities to ensure that the system meets project requirements.                | 3 days   | End Users                   |
+| 4.3          | Fix Bugs                                   | Fix bugs or defects discovered during the testing phase.                                                   | 3 days   | Developers                  |
+| 4.4          | Update Plans                               | Update project plans to reflect changes and adjustements based on the testing outcomes.                    | 2 days   | Project Manager             |
+| 5.1          | Final Performance Review                   | Conduct a final performance review to evaluate project objectives have been met.                           | 1 day    | Project Manager & Investors |
+| 5.2          | Prepare Final Report                       | Compile a final report.       | 1 day    | Project Manager             |
 
 ## 4. Gantt Chart
 You have to use the provided Gantt chart template.  
