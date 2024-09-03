@@ -119,7 +119,7 @@ Include at least 5 use cases, each corresponding to a specific function.
 
 | Use Case ID    | UC-02 |
 |----------------|------|
-| Use Case Name  | xxxx |
+| Use Case Name  | Nutrition breakdown |
 | Actors         | Customer |
 | Description    | xxxx |
 | Flow of Events | xxxx |
@@ -127,7 +127,7 @@ Include at least 5 use cases, each corresponding to a specific function.
 
 | Use Case ID    | UC-03 |
 |----------------|------|
-| Use Case Name  | xxxx |
+| Use Case Name  | Nutrition range filter |
 | Actors         | Customer |
 | Description    | xxxx |
 | Flow of Events | xxxx |
@@ -135,7 +135,7 @@ Include at least 5 use cases, each corresponding to a specific function.
 
 | Use Case ID    | UC-04 |
 |----------------|------|
-| Use Case Name  | xxxx |
+| Use Case Name  | Nutrition level filter |
 | Actors         | Customer |
 | Description    | xxxx |
 | Flow of Events | xxxx |
