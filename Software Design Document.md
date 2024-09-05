@@ -158,6 +158,9 @@ Include a flowchart that illustrates how your software will operate.
 Example:  
 ![Software Design](./software_design_flowchart.png)
 
+![Software Design](./3.1_flowchart.png)
+
+
 ### 3.2	System Components
 
 #### 3.2.1 Functions
@@ -166,6 +169,10 @@ List all key functions within the software. For each function, provide:
 - Input Parameters: List parameters, their data types, and their use.
 - Return Value: Describe what the function returns.
 - Side Effects: Note any side effects, such as changes to global variables or data passed by reference.
+
+
+
+
 
 #### 3.2.2 Data Structures / Data Sources
 List all data structures or sources used in the software. For each, provide:
