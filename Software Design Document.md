@@ -171,6 +171,88 @@ List all key functions within the software. For each function, provide:
 - Side Effects: Note any side effects, such as changes to global variables or data passed by reference.
 
 
+3.2 System Components
+
+3.2.1 Functions
+
+Function 1: search_food_by_name
+
+Description: This function allows users to search for food items by name. It queries the database and returns a list of foods that match up with the input word.
+
+Input Parameters: food_name (String): The name of the food item the user is searching for.
+
+Return Value: List of dictionaries: Each dictionary contains the details and nutritional information of a food item that matches up with the search term.
+
+Side Effects: None.
+
+
+Function 2: filter_food_by_nutritional_range
+
+Description: This function filters foods based on a specified nutritional range. Users can input a nutrient (for example: protein, fat) and a minimum and maximum value to get a list of foods that go in that range.
+
+Input Parameters: nutrient (String): The specific nutrient to filter by (such as "protein", "fat").
+min_value (Float): The minimum acceptable value for the nutrient.
+max_value (Float): The maximum acceptable value for the nutrient.
+
+Return Value: List of dictionaries: Each dictionary contains the details and nutritional information of foods that match the specified nutrient range.
+
+Side Effects: None.
+
+
+Function 3: filter_food_by_nutritional_level
+
+Description: This function filters foods by nutritional level—low, mid, or high—for a specific nutrient. The levels are determined relative to the highest value of that nutrient in the database.
+
+Input Parameters:
+nutrient (String): The nutrient to filter by (such as "carbohydrates", "sodium").
+level (String): The desired level for the nutrient ("low", "mid", or "high").
+
+Return Value: List of dictionaries: Each dictionary contains the details and nutritional information of foods that match the specified nutritional level.
+
+Side Effects: None. 
+
+
+Function 4: calculate_nutritional_breakdown
+
+Description: This function calculates the percentage breakdown of different nutrients in a given food item. It provides a detailed analysis of the food’s nutritional composition.
+
+Input Parameters:
+food_item (Dictionary): A dictionary containing the nutritional values of a food item.
+
+Return Value: Dictionary: A dictionary containing the percentage breakdown of each nutrient within the food item.
+
+Side Effects: None.
+
+
+Function 5: generate_visualisation
+
+Description:
+This function generates visual representations of the nutritional data, such as pie charts or bar graphs, to help users better understand the nutritional breakdown of a food item.
+Input Parameters:
+
+nutritional_data (Dictionary): A dictionary containing the nutritional breakdown of a food item.
+chart_type (String): The type of chart to generate, either "pie" or "bar".
+
+Return Value:
+Visualisation object: An object representing the generated chart, which can be displayed or saved as an image file.
+
+Side Effects: None. 
+
+
+Function 6: compare_foods
+
+Description: Compares the nutritional information of multiple food items and provides a detailed comparison report, highlighting and displaying similarities and differences in nutritional content between different foods.
+
+Input Parameters:
+food_items (List of Dictionaries): A list where each dictionary contains the nutritional information of a food item to be compared.
+
+comparison_metric (String): The specific nutrient or nutrients to compare (e.g., "protein", "fat", "carbohydrates").
+
+Return Value: Dictionary: A dictionary where each key is a food item name and the value is another dictionary containing the comparison results. The comparison results may include the average, highest and lowest values for the specified nutrients.
+
+Side Effects: None.
+
+
 
 
 
@@ -181,8 +263,209 @@ List all data structures or sources used in the software. For each, provide:
 - Usage: Describe where and how it is used.
 - Functions: List functions that utilize this structure.
 
+3.2.2 Data Structures / Data Sources
+
+1. List of Dictionaries
+
+Type: List of Dictionaries
+
+Usage:
+This is the primary data structure used to store the nutritional information for various food items. Each food item is represented as a dictionary where the keys are nutrient names ("caloric_value", "fat", "protein") and the values are the related number data for each nutrient.
+]
+
+Functions:
+search_food_by_name()
+filter_food_by_nutritional_range()
+filter_food_by_nutritional_level()
+calculate_nutritional_breakdown()
+compare_foods()
+
+2. Set
+
+Type: Set
+
+Usage:Used to store unique nutrient names or food categories. This allows for quick lookups and ensures that no duplicates are present.
+
+Functions:
+get_unique_nutrients()
+filter_food_by_category()
+
+3. Dictionary
+
+Type: Dictionary
+
+Usage:
+Represents individual food items with their associated nutritional values. Each dictionary contains the name of the food item and its nutritional data.
+
+Functions:
+calculate_nutritional_breakdown()
+display_food_nutrition()
+
+4. Graph / Chart Data Structure
+
+Type: Graph / Chart Data Structure
+
+Usage:
+Used for making visual representation of nutritional breakdowns by using pie charts and bar charts. Nutritional data from the dictionaries is mapped onto these visual representations.
+
+Functions:
+generate_nutritional_pie_chart()
+generate_nutritional_bar_chart()
+
+5. External Data Source (Nutritional Dataset)
+
+Type: External Data Source
+
+Usage:
+The core nutritional data is sourced from an external dataset, which may be in the form of a CSV file, API, or database containing detailed nutritional information for a variety of foods.
+
+Functions:
+load_data_from_csv()
+update_nutritional_database()
+
+
+
+
+
+
+
+
 #### 3.2.3 Detailed Design
 Provide pseudocode or flowcharts for all functions listed in Section 3.2.1 that operate on data structures. For instance, include pseudocode or a flowchart for a custom searching function.
+
+
+3.2.3 Detailed Design
+
+Function 1: search_food_by_name
+
+Pseudocode:
+
+Function search_food_by_name(food_name):
+    Initialise an empty list named matched_foods
+    For each food in the food_database:
+        If food.name contains food_name:
+            Add food to matched_foods
+    If matched_foods is not empty:
+        Return matched_foods
+    Else:
+        Return "No matching foods found"
+
+
+This function searches the food database for items matching the provided food name and returns a list of matched items or a message if no matches are found.
+
+
+Function 2: filter_food_by_nutritional_range
+Pseudocode:
+
+plaintext
+Copy code
+Function filter_food_by_nutritional_range(nutrient, min_value, max_value):
+    Initialise an empty list named filtered_foods
+    For each food in the food_database:
+        If min_value <= food[nutrient] <= max_value:
+            Add food to filtered_foods
+    If filtered_foods is not empty:
+        Return filtered_foods
+    Else:
+        Return "No foods found in the specified nutrient range"
+Explanation:
+
+This function filters foods based on a specified range for a particular nutrient and returns a list of foods that are within that range.
+
+
+
+Function 3: filter_food_by_nutritional_level
+
+Pseudocode:
+
+Function filter_food_by_nutritional_level(nutrient, level):
+    // Determine the highest value of the specified nutrient in the food_database
+    highest_value = find_highest_value(nutrient)
+    
+    // Define thresholds for low, mid, and high levels
+    low_threshold = 0.33 * highest_value
+    mid_threshold = 0.66 * highest_value
+    
+    // Initialize an empty list named level_filtered_foods
+    level_filtered_foods = []
+    
+    // Iterate through each food item in the food_database
+    For each food in food_database:
+        // Check if the nutrient value of the food falls within the defined boundaries for level
+        If level == "low" and food[nutrient] < low_threshold:
+            Add food to level_filtered_foods
+        Else If level == "mid" and low_threshold <= food[nutrient] < mid_threshold:
+            Add food to level_filtered_foods
+        Else If level == "high" and food[nutrient] >= mid_threshold:
+            Add food to level_filtered_foods
+    
+    // Return the filtered list or a message if no foods match the criteria
+    If level_filtered_foods is not empty:
+        Return level_filtered_foods
+    Else:
+        Return "No foods found at the specified nutritional level"
+
+Explanation:
+This function filters foods based on nutritional levels relative to the highest value in the database for the specified nutrient.
+
+
+Function 4: calculate_nutritional_breakdown
+
+Pseudocode:
+Function calculate_nutritional_breakdown(food_item):
+    Initialise a total variable to 0
+    For each nutrient in food_item:
+        Add food_item[nutrient] to total
+    Initialise an empty dictionary named breakdown
+    For each nutrient in food_item:
+        Calculate the percentage of each nutrient relative to total
+        Add the percentage to breakdown
+    Return breakdown
+
+
+Explanation:
+This function will calculate the percentage breakdown of nutrients in a food item and returns a dictionary with the percentages.
+
+Function 5: generate_visualisation
+
+Pseudocode:
+
+ Function generate_visualisation(nutritional_data, chart_type):
+    If chart_type is "pie":
+        Generate a pie chart using nutritional_data
+    Else If chart_type is "bar":
+        Generate a bar chart using nutritional_data
+    Return the visualisation object
+
+Explanation:
+This function generates visual representations of the nutritional data (pie or bar chart) based on the specified chart type (either bar or pie).
+
+
+
+Function 6: compare_foods
+
+Pseudocode:
+Function compare_foods(food1_name, food2_name):
+    Initialise an empty dictionary named comparison_result
+    Retrieve food1 from the food_database using food1_name
+    Retrieve food2 from the food_database using food2_name
+    If both foods are found:
+        For each nutrient in food1 and food2:
+            Compare nutrient values of food1 and food2
+            Add comparison results to comparison_result
+        Return comparison_result
+    Else:
+        Return "One or both food items not found"
+
+Explanation:
+
+This function compares two food items by their nutrient values and returns a dictionary with the comparison results.
+
+
+
+
+
+
 
 
 ## 4. User Interface Design
@@ -197,6 +480,71 @@ Present a structural design, a hierarchy chart, showing the overall interface’
 
 Example:  
 ![Structural Design](./Structural_Design.png)
+![Structural Design](./4.1_heirarchy.png)
+
+The software will be structured in a modular manner, with different components handling different specific functionalities. This structure will allow for easier maintenance, updates, and scalability. 
+
+The modules of the system are:
+
+User Interface (UI)
+Search Module
+Filter Module
+Visualisation Module
+Comparison Module
+
+Core Logic
+Search Functions
+Filter Functions
+Visualisation Functions
+Comparison Functions
+
+Data Management
+Database Interface
+Data Loading and Parsing
+
+Utilities
+Helper Functions
+Data Transformation
+
+
+Information Grouping:
+
+Food Data: Nutritional information for different food items.
+User Input: Search queries, filter parameters, and comparison criteria.
+Results: Search results, filtered lists, visual representations, and comparison reports.
+
+The information will be organised in a way that each module has a clear responsibility:
+Search Module: Handles searching for food items based on user queries.
+Filter Module: Applies nutritional filters to display relevant food items.
+Visualisation Module: Generates charts and graphs for nutritional data.
+Comparison Module: Compares the nutritional content of multiple food items.
+
+
+Navigation
+
+The user can use:
+
+Main Menu: Provides access to different modules (Search, Filter, Visualisation, Comparison).
+Submenus: Allow users to select specific functions within each module (such as specifying nutrient types or levels).
+Search Bar: For entering food names.
+Filter Options: For setting nutritional ranges and levels.
+Visual Controls: For selecting chart types and viewing results.
+Comparison Interface: For selecting and comparing multiple food items.
+
+Design Choices
+
+Modular Design: Dividing the software into modules improves maintainability and flexibility. Each module focuses on a specific aspect of the application, making it easier to manage and update individual components.
+
+Hierarchical Navigation: The use of a main menu and submenus ensures a clear and intuitive navigation path for users. This structure helps users easily access different functionalities without a user feeling overwhelmed.
+
+Separation of Concerns: By separating UI components from core logic and data management, the design ensures that changes in one area (user interface) do not affect other areas (such as data handling), leading to a more robust and manageable system.
+
+User focused Design: The navigation and layout are designed to be user friendly, allowing users to efficiently search for foods, apply filters, view charts, and compare items. This approach benefits the overall user experience and makes sure that the software meets user needs effectively.
+
+
+
+
+
 
 ### 4.2	Visual Design
 Include all wireframes or mock-ups of the interface. Provide a discussion, explanation, and justification for your design choices. Hand-drawn wireframes are acceptable.
