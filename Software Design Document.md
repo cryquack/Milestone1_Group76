@@ -49,19 +49,19 @@
 
 ### 1.1 Problem Background
 
-Problem Identification: What problem does this system solve?
-- Obtaining the detailed nutritional information for a wide range of foods commonly consumed globally
+Problem Identification:
+The difficulty in obtaining the detailed nutritional information for a wide range of foods that is commonly consumed around the world.
 
-Dataset: What is the dataset used?
-- Nutritional Food Database
+Dataset:
+Nutritional Food Database which contains the needed nutritional information for each food item measured in grams(g) or milligrams(mg) e.g. carbohydrates(in g), sodium(in g), and iron(in mg).
 
-Data Input/Output: What kind of data input and output is required?
-- The amount of nutrients consumed provides the amount of calories gained
+Data Input/Output:
+In order for customers to acquire detailed nutritional information, they must provide the food item by inputting it into the system. The system will output all the detailed nutritional content that customers require e.g. pie charts and bar graphs displaying every single nutrients contained in the food searched.
 
-Target Users: Who will use the system, and why?
+Target Users:
 - The hospitality industry will use this system to source and display the nutritional content in the foods they provide to consumers
-- Dietitians will utilise this system in order to prepare dietary and nutritional advice to consumers seeking diet-related goals
-- Everyday users who may have specific dietary restrictions or requirements such as diabetes or food allergies may want to use this system to aquire their needed source of nutrients
+- Dietitians and nutritionists will utilise this system in order to prepare dietary and nutritional advice to consumers seeking diet-related goals
+- Everyday users who may have specific dietary restrictions or requirements such as diabetes or food allergies may want to use this system to acquire their needed source of nutrients
 
 ### 1.2 System capabilities/overview
 
