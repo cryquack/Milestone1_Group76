@@ -80,7 +80,9 @@ Features and Functionalities:
 
 ### 1.3	Benefit Analysis
 
-How will this system provide value or benefit?
+How will this system provide value(importance) or benefit?
+This system will provide significant value t
+A benefit of using this system is the efficiency. Searching up a food item on a search engine will only provide users the nutrients contained in the food and their measurements whereas this system will provide the same information but more in-depth with the use of statistics e.g. nutrition breakdown displayed in charts and graphs. The system also has the option to go further more in detail by filtering the range and level of nutrients they wish to obtain which will show in a list to choose from.
 
 ## 2. Requirements
 
@@ -92,12 +94,6 @@ Note: Since no specific client or user is assigned, you may create a fictional u
 
 ### 2.2	Software Requirements
 Define the functionality the software will provide. This section should list requirements formally, often using the word "shall" to describe functionalities.
-
-Example Functional Requirements:  
-- R1.1 The program shall accept multiple file names as arguments from the command line.  
-- R1.2 Each file name can be a simple file name or include the full path of the file with one or more levels.  
-
-- etc …
 
 ### 2.3 Use Case Diagram
 Provide a system-level Use Case Diagram illustrating all required features.
