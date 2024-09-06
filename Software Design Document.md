@@ -49,16 +49,13 @@
 
 ### 1.1 Problem Background
 
-Problem Identification:
-
+Problem Identification:<br/>
 The difficulty in obtaining the detailed nutritional information for a wide range of foods that is commonly consumed around the world.
 
-Dataset:
-
+Dataset:<br/>
 Nutritional Food Database which contains the needed nutritional information for each food item measured in grams(g) or milligrams(mg) e.g. carbohydrates(in g), sodium(in g), and iron(in mg).
 
-Data Input/Output:
-
+Data Input/Output:<br/>
 In order for customers to acquire detailed nutritional information, they must provide the food item by inputting it into the system. The system will output all the detailed nutritional content that customers require e.g. pie charts and bar graphs displaying every single nutrients contained in the food searched.
 
 Target Users:
