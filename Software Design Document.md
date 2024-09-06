@@ -76,7 +76,7 @@ Features and Functionalities:
        - Low: Less than 33% of the highest value.
        - Mid: Between 33% and 66% of the highest value.
        - High: Greater than 66% of the highest value.
-- 
+- Nutrition
 
 ### 1.3	Benefit Analysis
 
