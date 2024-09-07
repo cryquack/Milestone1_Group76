@@ -106,17 +106,15 @@ Example:
 ![Use Case Diagram](./UCD.png)
 
 ### 2.4 Use Cases
-Includes at least 5 detailed use cases, each with comprehensive descriptions and flows.
 
-
-| Use Case ID | UC-01 |
-|-------------|------|
-| Use Case Name | Food Search |
-| Actors | Customer |
-| Description | Customers search for foods by name. This will provide them with the nutritional information. |
-| Preconditions | The desktop application must be downloaded and up-to-date. |
-| Flow of Events | 1. System prompts for the food name. <br/> 2. Customer inputs the food name they require. <br/> 3. The system provides options from a list based on the spelling. <br/> 4. Customer must select the food item from the list to continue. |
-| Alternate Flow | If the food does not appear on the list, the system will prompt the user to try again after checking the correct spelling of the food item. |
+| Use Case ID      | UC-01 |
+|------------------|------|
+| Use Case Name    | Food Search |
+| Actors           | Customer |
+| Description      | Customers search for foods by name. This will provide them with the nutritional information. |
+| Preconditions    | The desktop application must be downloaded and up-to-date. |
+| Flow of Events   | 1. System prompts for the food name. <br/> 2. Customer inputs the food name they require. <br/> 3. The system provides options from a list based on the spelling. <br/> 4. Customer must select the food item from the list to continue. |
+| Alternate Flow   | If the food does not appear on the list, the system will prompt the user to try again after checking the correct spelling of the food item. |
 
 | Use Case ID      | UC-02 |
 |------------------|------|
@@ -133,9 +131,9 @@ Includes at least 5 detailed use cases, each with comprehensive descriptions and
 | Actors           | Customer |
 | Description      | Enable users to select one of nutrition and input minimum and maximum values, and the tool will display a list of foods that fall within those ranges. |
 | Preconditions    | The customer must input a food item. |
-| Trigger          | The customer selects the "Nutrition range filter" option |
-| Flow of Events   | 1. Customer must select a nutrition from the food item search. <br/> 2. The system prompts the customer to input minimum and maximum values of the nutrition selected. <br/> 3. The system analyses the values and provides the customer with food options within the range. |
-| Alternate Flow   | If there is no food item within the value range, the system will prompt the customer to input a different range |
+| Trigger          | The customer selects the "Nutrition range filter" option. |
+| Flow of Events   | 1. Customer must select a nutrition from the food item searched. <br/> 2. The system prompts the customer to input minimum and maximum values of the nutrition selected. <br/> 3. The system analyses the values. <br/> 4. The system displays a list to the customer with food options within the value range. |
+| Alternate Flow   | If there is no food item within the value range, the system will prompt the customer to input a different value range. |
 | Postconditions   | The list of foods within the nutrition range is displayed and the customer has the option to exit "home" to search a different food item. |
 
 | Use Case ID      | UC-04 |
@@ -144,27 +142,27 @@ Includes at least 5 detailed use cases, each with comprehensive descriptions and
 | Actors           | Customer |
 | Description      | Enable users to filter foods by nutritional content levels-low, mid, and high-including fat, protein, carbohydrates, sugar, sodium and nutritional density. |
 | Preconditions    | The customer must input a food item. |
-| Trigger          | The customer selects the "Nutrition level filter" option |
-| Flow of Events   | xxxx |
-| Postconditions   | The nutritional content is shown and the customer has the option to exit "home" to search a different food item. |
+| Trigger          | The customer selects the "Nutrition level filter" option. |
+| Flow of Events   | 1. The system prompts the customer to select a nutritional content level-low, mid, and high. <br/> 2. The customer selects a nutritional content level from a list. <br/> 3. The system verifies the selection and breaks down the dataset that match. <br/> 4. The system loads in a list of foods with the same nutritional content level. |
+| Postconditions   | The list of foods filtered by the nutritional content levels is shown from the customer selection. The customer has the option to exit "home" to search a different food item. |
 
 | Use Case ID      | UC-05 |
 |------------------|------|
 | Use Case Name    | Nutrition comparison |
 | Actors           | Customer |
-| Description      | Enable users to compare food items by selecting "compare" and inputting the second food item to display the list of nutrients side-by-side shown in a line graph. |
+| Description      | Enable users to compare food items by selecting "Nutrition comparison" and inputting the second food item to display the list of nutrients side-by-side shown in a line graph. |
 | Preconditions    | The customer must input a food item. |
-| Trigger          | The customer selects the "Nutrition comparison" option |
-| Flow of Events   | xxxx |
+| Trigger          | The customer selects the "Nutrition comparison" option. |
+| Flow of Events   | 1.  |
 | Postconditions   | The nutritional content comparison between two food items is shown through a line graph and the customer has the option to exit "home" to search a different food item. |
 
 | Use Case ID      | UC-06 |
 |------------------|------|
 | Use Case Name    | Home |
 | Actors           | Customer |
-| Description      | Enable users to return home to input a different food item |
+| Description      | Enable users to return home to input a different food item. |
 | Preconditions    | The customer must input a food item. |
-| Trigger          | After a long period of inactivity or the customer selects the "Home" option |
+| Trigger          | After a long period of inactivity or the customer selects the "Home" option. |
 | Flow of Events   | 1. The customer selects "Home". <br/> 2. The system ends the session and resets back to "Home", prompting the customer to enter a food name. |
 | Postconditions   | The system returns the customer "Home", and the application is ready to be used again. |
 
