@@ -65,8 +65,8 @@ Target Users:
 
 ### 1.2 System capabilities/overview
 
-System Functionality: What will the system do?
-- This system will provide a wide range dataset of various nutritional content in-depth, supporting dietry, health, medical and research implementations.
+System Functionality:<br/>
+This system will provide a wide range dataset of various nutritional content in-depth, supporting dietry, health, medical and research implementations. Some of these are hard to obtain as the food item may come from different places around the world.
 
 Features and Functionalities:
 - Food search: Users search for foods by name. This will provide them with the nutritional information;
@@ -81,28 +81,34 @@ Features and Functionalities:
 ### 1.3	Benefit Analysis
 
 How will this system provide value(importance) or benefit?
-This system will provide significant value t
-A benefit of using this system is the efficiency. Searching up a food item on a search engine will only provide users the nutrients contained in the food and their measurements whereas this system will provide the same information but more in-depth with the use of statistics e.g. nutrition breakdown displayed in charts and graphs. The system also has the option to go further more in detail by filtering the range and level of nutrients they wish to obtain which will show in a list to choose from.
+This system will provide significant value to nutritionists and dietitians
+everyday users who need the nutritional content for their daily lives, which may include people who have food allergies or diabetes
+A benefit of using this application system is the efficiency. Searching up a food item on a search engine will only provide users the nutrients contained in the food and their measurements whereas this system will provide the same information but more in-depth with the use of statistics e.g. nutrition breakdown displayed in charts and graphs. The system also has the option to go further more in detail by filtering the range and level of nutrients they wish to obtain which will show in a list to choose from. Another benefit is the simple layout and design of the system which everybody can use with no difficulty.
 
 ## 2. Requirements
 
 ### 2.1 User Requirements
 
-Detail how users are expected to interact with or use the program. What functionalities must the system provide from the end-user perspective? This can include both narrative descriptions and a listing of user needs.
+Detail how users are expected to interact with or use the program. What functionalities must the system provide from the end-user perspective? This can include both narrative descriptions and a listing of user needs. Provides a detailed narrative and list of user needs, considering a realistic fictional user.
 
 Note: Since no specific client or user is assigned, you may create a fictional user. Who do you envision using your software?
 
 ### 2.2	Software Requirements
 Define the functionality the software will provide. This section should list requirements formally, often using the word "shall" to describe functionalities.
 
+Example Functional requirements:
+- R1.1 The program shall accept multiple file names as arguements from the command line.
+- R1.2 Each file name can be a simple file name or include the full path of the file with one or more levels.
+- etc...
+
 ### 2.3 Use Case Diagram
-Provide a system-level Use Case Diagram illustrating all required features.
+Provide a system-level Use Case Diagram illustrating all required features. Includes a complete and accurate system-level use case diagram that is well integrated with the text.
 
 Example:  
 ![Use Case Diagram](./UCD.png)
 
 ### 2.4 Use Cases
-Include at least 5 use cases, each corresponding to a specific function.
+Includes at least 5 detailed use cases, each with comprehensive descriptions and flows.
 
 
 | Use Case ID    | UC-01 |
