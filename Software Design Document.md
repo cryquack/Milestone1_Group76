@@ -109,7 +109,7 @@ Example Functional requirements:
 |------------------|------|
 | Use Case Name    | Food Search |
 | Actors           | Customer |
-| Description      | Customers search for foods by name. This will provide them with the nutritional information. |
+| Description      | Enable users to search for foods by name and display all the nutritional information. |
 | Preconditions    | The desktop application must be downloaded and up-to-date. |
 | Flow of Events   | 1. System prompts for the food name. <br/> 2. Customer inputs the food name they require. <br/> 3. The system provides options from a list based on the spelling. <br/> 4. Customer must select the food item from the list to continue. |
 | Alternate Flow   | If the food does not appear on the list, the system will prompt the user to try again after checking the correct spelling of the food item. |
@@ -148,10 +148,10 @@ Example Functional requirements:
 |------------------|------|
 | Use Case Name    | Nutrition comparison |
 | Actors           | Customer |
-| Description      | Enable users to compare food items by selecting "Nutrition comparison" and inputting the second food item to display the list of nutrients side-by-side shown in a line graph. |
+| Description      | Enable users to compare the nutrients contained in the food items by selecting "Nutrition comparison" and inputting the second food item to display the list of nutrients side-by-side shown in a line graph. |
 | Preconditions    | The customer must input a food item. |
 | Trigger          | The customer selects the "Nutrition comparison" option. |
-| Flow of Events   | 1.  |
+| Flow of Events   | 1. The system prompts the customer to input another food item to compare the nutrients contained. <br/> 2. The customer must input and select the food item to compare the nutrients. <br/> 3. The system analyses the two food items selected from the dataset. <br/> 4. The system displays a line graph that compares the nutrients contained in the two food items. |
 | Postconditions   | The nutritional content comparison between two food items is shown through a line graph and the customer has the option to exit "home" to search a different food item. |
 
 | Use Case ID      | UC-06 |
