@@ -170,7 +170,7 @@ list of all necessary software functionalities in a nutritional data based softw
 | Postconditions   | The system returns the customer "Home", and the application is ready to be used again. |
 
 
-## 3.	Software Design and System Components 
+## 3.	Software Design and System Components
 
 ### 3.1	Software Design
 Include a flowchart that illustrates how your software will operate.
