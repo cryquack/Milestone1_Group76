@@ -109,33 +109,37 @@ Include at least 5 use cases, each corresponding to a specific function.
 |----------------|------|
 | Use Case Name  | Food Search |
 | Actors         | Customer |
-| Description    | Users search for foods by name. This will provide them with the nutritional information |
-| Flow of Events | 1. System prompts for the food name. <br/> 2. Customer inputs the food name they require. <br/> 3. The system provides options from a list based on the spelling |
-| Alternate Flow | xxxx |
+| Description    | Customers search for foods by name. This will provide them with the nutritional information. |
+| Preconditions  | The desktop application must be downloaded and up-to-date. |
+| Flow of Events | 1. System prompts for the food name. <br/> 2. Customer inputs the food name they require. <br/> 3. The system provides options from a list based on the spelling. <br/> 4. Customer must select the food item from the list to continue. |
+| Alternate Flow | If the food does not appear on the list, the system will prompt the user to try again after checking the correct spelling of the food item. |
 
 | Use Case ID    | UC-02 |
 |----------------|------|
 | Use Case Name  | Nutrition breakdown |
 | Actors         | Customer |
-| Description    | xxxx |
-| Flow of Events | xxxx |
-| Alternate Flow | xxxx |
+| Description    | Enable users to select one food, and display pie charts & bar graphs showing the breakdown of different nutrients for the selected food. |
+| Preconditions  | The customer must input a food item. |
+| Flow of Events | 1. System displays graphs and charts of the nutrients contained in the food. <br/> 2. Customers have the option to select the graphs and charts for more in-depth information e.g. measurements in grams and milligrams. |
+| Postconditions | The nutritional content is shown and the customer has the option to exit "home" to search a different food item. |
 
 | Use Case ID    | UC-03 |
 |----------------|------|
 | Use Case Name  | Nutrition range filter |
 | Actors         | Customer |
-| Description    | xxxx |
-| Flow of Events | xxxx |
+| Description    | Enable users to select one of nutrition and input minimum and maximum values, and the tool will display a list of foods that fall within those ranges. |
+| Flow of Events | 1. Customer must  |
 | Alternate Flow | xxxx |
+| Postconditions | The list of foods within the nutrition range is displayed and the customer has the option to "return" to select a different nutrition or exit "home" to search a different food item. |
 
 | Use Case ID    | UC-04 |
 |----------------|------|
 | Use Case Name  | Nutrition level filter |
 | Actors         | Customer |
-| Description    | xxxx |
+| Description    | Enable users to filter foods by nutritional content levels-low, mid, and high-including fat, protein, carbohydrates, sugar, sodium and nutritional density. |
 | Flow of Events | xxxx |
 | Alternate Flow | xxxx |
+| Postconditions | The nutritional content is shown and the customer has the option to exit "home" to search a different food item. |
 
 | Use Case ID    | UC-05 |
 |----------------|------|
