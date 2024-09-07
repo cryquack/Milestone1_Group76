@@ -75,7 +75,7 @@ _Features and Functionalities:_
 <br/>- High: Greater than 66% of the highest value.
 - Nutrition comparison: Enable users to compare food items by selecting "compare" and inputting the second food item to display the list of nutrients side-by-side shown in a line graph.
 
-### 1.3	Benefit Analysis
+### 1.3	Potential Benefits
 
 This application system will provide significant value to nutritionists and dietitians who can implement this to their structure. This will assist the consumers that are seeking professional help with their diets and healthy eating by obtaining the nutritional content. Everyday users may also perceive this system of great value as they need the nutritional content for their daily lives, i.e. people who have food allergies or diabetes. <br/>
 A benefit of using this application system is the efficiency. Searching up a food item on a search engine will only provide users the nutrients contained in the food and their measurements, whereas this system will provide the same information but more in-depth with the use of statistics e.g. nutrition breakdown displayed in charts and graphs. The system also has the option to go further more in detail by filtering the range and level of nutrients they wish to obtain which will show in a list to choose from. Another benefit is the simple layout and design of the system which everybody can use with no difficulty.
