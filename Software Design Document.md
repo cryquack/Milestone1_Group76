@@ -568,8 +568,10 @@ Include all wireframes or mock-ups of the interface. Provide a discussion, expla
 - Screens/Menus: Provide wireframes for different screens, menus, and options.
 - Design Details: Focus on the layout and size of components; color and graphics are not required. 
 
-Example:  
-![Visual Design](./visual_design.png)
+
+![Visual Design](./4.2.png)
+The layout is designed for clarity, easy navigation, and quick access to the most important features. It is designed in such a way that the key features are all accessible on the page, and can be accessed easily. When the user inputs the information they want, the ui will come up with the table/charts and information necessary.
+
 
 
 
