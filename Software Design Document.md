@@ -49,23 +49,23 @@
 
 ### 1.1 Problem Background
 
-Problem Identification:<br/>
+_Problem Identification:_ <br/>
 The difficulty in obtaining the detailed nutritional information for a wide range of foods that is commonly consumed around the world.
 
-Dataset:<br/>
+_Dataset:_ <br/>
 Nutritional Food Database which contains the needed nutritional information for each food item measured in grams(g) or milligrams(mg) e.g. carbohydrates(in g), sodium(in g), and iron(in mg).
 
-Data Input/Output:<br/>
+_Data Input/Output:_ <br/>
 In order for customers to acquire detailed nutritional information, they must provide the food item by inputting it into the system. The system will output all the detailed nutritional content that customers require e.g. pie charts and bar graphs displaying every single nutrients contained in the food searched.
 
-Target Users:<br/>- The hospitality industry will use this system to source and display the nutritional content in the foods they provide to consumers.<br/>- Dietitians and nutritionists will utilise this system in order to prepare dietary and nutritional advice to consumers seeking diet-related goals.<br/>- Everyday users who may have specific dietary restrictions or requirements such as diabetes or food allergies may want to use this system to acquire their needed source of nutrients.
+_Target Users:_ <br/>- The hospitality industry will use this system to source and display the nutritional content in the foods they provide to consumers.<br/>- Dietitians and nutritionists will utilise this system in order to prepare dietary and nutritional advice to consumers seeking diet-related goals.<br/>- Everyday users who may have specific dietary restrictions or requirements such as diabetes or food allergies may want to use this system to acquire their needed source of nutrients.
 
 ### 1.2 System capabilities/overview
 
-System Functionality:<br/>
+_System Functionality:_ <br/>
 This system will provide a wide range dataset of various nutritional content in-depth, supporting dietry, health, medical and research implementations. Some of these are hard to obtain as the food item may come from different places around the world.
 
-Features and Functionalities:
+_Features and Functionalities:_
 - Food search: Users search for foods by name. This will provide them with the nutritional information;
 - Nutrition breakdown: Displays pie charts and bar graphs showing the breakdown of different nutrients contained in the food searched
 - Nutrition range filter: Enable users to select one of nutrition and input minimum and maximum values, and the tool will display a list of foods that fall within those ranges
