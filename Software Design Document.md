@@ -87,17 +87,19 @@ A benefit of using this application system is the efficiency. Searching up a foo
 Detail how users are expected to interact with or use the program. What functionalities must the system provide from the end-user perspective? This can include both narrative descriptions and a listing of user needs. Provides a detailed narrative and list of user needs, considering a realistic fictional user.
 
 Users would want a simple software layout with an appealing design that attracts them to use this application system.
+Users are expected to download the application system onto their desktops in order to access the information
 
 ### 2.2	Software Requirements
-Define the functionality the software will provide. This section should list requirements formally, often using the word "shall" to describe functionalities.
-- The software shall only provide nutritional content once a food item is searched.
-- Each food item searched will have nutritional content displaying precise measurements per 100 grams.
-- 
 
-Example Functional requirements:
-- R1.1 The program shall accept multiple file names as arguements from the command line.
-- R1.2 Each file name can be a simple file name or include the full path of the file with one or more levels.
-- etc...
+- The software shall provide users easy access to the nutritional content.
+- The application system shall have a simple and visually appealing layout to attract new users.
+- The software shall only provide nutritional information once a food item is searched.
+- Each food item can display nutritional content with precise measurements per 100 grams in a graph or chart.
+- The software shall filter thorugh the dataset to provide users a list to match the nutrition range selected.
+- The software shall filter thorugh the dataset to provide users a food list with the same nutritional content level selected.
+- The software shall be able to compare the nutrients contained in two food items with a line graph.
+- The software shall be able to access the "Home" page from all parts of the system to input a different food item.
+- The software system shall have updates and bug fixes every half-year.
 
 ### 2.3 Use Case Diagram
  
