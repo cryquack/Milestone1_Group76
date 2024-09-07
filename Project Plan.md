@@ -78,12 +78,12 @@ Define the activities required for your project based on the WBS, and assign res
 
 | Activity #No | Activity Name                              | Brief Description                                                                                              | Duration | Responsible Team Members    |
 |--------------|--------------------------------------------|----------------------------------------------------------------------------------------------------------------|----------|-----------------------------|
-| 1.1          | Assign Project Manager                     | Identify and appoint a project manger to oversee the project's execution.                                      | 1 day    | xxx \& yyy                  |
+| 1.1          | Assign Project Manager                     | Identify and appoint a project manger to oversee the project's execution.                                      | 1 day    | Company Executives          |
 | 1.2          | Develop project charter                    | Create a project charter to outline the project's objectives, scope, stakeholders, and timeline.               | 2 days   | Project Manager             |
 | 1.3          | Meet with stakeholders                     | Conduct meetings with stakeholders to understand their needs and expectations for the project.                 | 2 days   | Project Manager             |
 | 2.1          | Create scope plan                          | Define the project scope.                                                                                      | 2 days   | Project Manager             |
 | 2.2          | Create WBS and Schedule                    | Develop a Work Breakdown Structure and schedule to organise project tasks and timeline.                        | 1 day    | Project Manager             |
-| 2.3          | Create procurement plan                    | Plan for the acquisition of necessary software, hardware, and other resources.                                 | 1 day    | All                         |
+| 2.3          | Create procurement plan                    | Plan for the acquisition of necessary software, hardware, and other resources.                                 | 1 day    | Project Manager             |
 | 2.4          | Create project management plan             | Develop a comprehensive project management plan covering communication, risk, quality, and resource management. | 2 days   | Project Manager             |
 | 2.5          | Create Budget                              | Estimate the project costs and prepare a budget to manage financial resources effectively.                     | 1 day    | Project Manager             |
 | 3.1          | Design Documentation                       | Develop detailed design documents that outline the system, features, and technical requirements                | 3 days   | Designers                   |
@@ -101,10 +101,13 @@ Define the activities required for your project based on the WBS, and assign res
 | 5.2          | Prepare Final Report                       | Compile a final report.                                                                                        | 1 day    | Project Manager             |
 
 ## 4. Gantt Chart
-You have to use the provided Gantt chart template.  
+The Gantt chart for the Comprehensive Nutritional Food Database Project provides a detailed timeline for the entire project, spanning a period of 55 days (around two months). The chart visually outlines the sequence and duration of activities across five main phases: Initialisation, Planning, Execution, Controlling, and Closing.
 
-Use the provided Gantt chart template to list all items from the Activity Definition along with relevant estimates 
-and scheduling. Ensure that the Gantt chart reflects the activity definitions from Section 3. Track actual start 
-times and durations. Besides including Gantt chart here, you should also submit your Gantt chart file separately.
+During the Initialisation phase, tasks such as assigning the project manager, developing the project charter, and meeting with stakeholders were completed promptly within the first few days, reaching 100% completion. The Planning phase followed, encompassing scope planning, WBS and schedule creation, procurement planning, project management planning, and budgeting. Each of these tasks was completed sequentially with overlaps to maintain project momentum, ensuring a smooth transition into the Execution phase.
+
+In the Execution phase, the project tackled design documentation, UI and UX design, application and backend development, and GUI development. While most tasks reached full completion, some activities like UI design and application development slightly extended into additional periods, demonstrating some deviations but were eventually completed within the project timeframe. Testing phases were initiated toward the latter part of the Execution phase and overlapped with the Controlling phase, which involved status reporting, testing, bug fixes, and plan updates.
+
+Finally, the Closing phase included a final performance review and preparation of the final report, with the majority of tasks nearing completion, indicating the project's adherence to schedule. The Gantt chart’s color coding and progress indicators effectively highlight the percentage completion of each task, actual start times, and instances where tasks extended beyond the planned timeline, providing a clear overview of project progress and areas of focus.
+
 ![Gantt Chart](./Gantt_chart.png)
 
