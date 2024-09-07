@@ -146,7 +146,6 @@ Includes at least 5 detailed use cases, each with comprehensive descriptions and
 | Preconditions    | The customer must input a food item. |
 | Trigger          | The customer selects the "Nutrition level filter" option |
 | Flow of Events   | xxxx |
-| Alternate Flow   | xxxx |
 | Postconditions   | The nutritional content is shown and the customer has the option to exit "home" to search a different food item. |
 
 | Use Case ID      | UC-05 |
@@ -157,7 +156,7 @@ Includes at least 5 detailed use cases, each with comprehensive descriptions and
 | Preconditions    | The customer must input a food item. |
 | Trigger          | The customer selects the "Nutrition comparison" option |
 | Flow of Events   | xxxx |
-| Alternate Flow   | xxxx |
+| Postconditions   | The nutritional content comparison between two food items is shown through a line graph and the customer has the option to exit "home" to search a different food item. |
 
 | Use Case ID      | UC-06 |
 |------------------|------|
