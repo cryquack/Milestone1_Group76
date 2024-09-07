@@ -70,9 +70,9 @@ Features and Functionalities:
 <br/>- Nutrition breakdown: Displays pie charts and bar graphs showing the breakdown of different nutrients contained in the food searched
 <br/>- Nutrition range filter: Enable users to select one of nutrition and input minimum and maximum values, and the tool will display a list of foods that fall within those ranges
 <br/>- Nutrition level filter: Enable users to filter foods by nutritional content levels-low, mid, and high-including fat, protein, carbohydrates, sugar, sodium and nutritional density. The three levels are defined as follows:
------<br/>- Low: Less than 33% of the highest value.
------<br/>- Mid: Between 33% and 66% of the highest value.
------<br/>- High: Greater than 66% of the highest value.
+         <br/>- Low: Less than 33% of the highest value.
+         <br/>- Mid: Between 33% and 66% of the highest value.
+         <br/>- High: Greater than 66% of the highest value.
 <br/>- Nutrition ...: 
 
 ### 1.3	Benefit Analysis
