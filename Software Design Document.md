@@ -58,8 +58,7 @@ Nutritional Food Database which contains the needed nutritional information for 
 Data Input/Output:<br/>
 In order for customers to acquire detailed nutritional information, they must provide the food item by inputting it into the system. The system will output all the detailed nutritional content that customers require e.g. pie charts and bar graphs displaying every single nutrients contained in the food searched.
 
-Target Users:
-- The hospitality industry will use this system to source and display the nutritional content in the foods they provide to consumers
+Target Users:<br/>- The hospitality industry will use this system to source and display the nutritional content in the foods they provide to consumers
 - Dietitians and nutritionists will utilise this system in order to prepare dietary and nutritional advice to consumers seeking diet-related goals
 - Everyday users who may have specific dietary restrictions or requirements such as diabetes or food allergies may want to use this system to acquire their needed source of nutrients
 
