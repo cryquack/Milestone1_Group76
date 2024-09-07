@@ -88,7 +88,7 @@ list of user needs in a nutritional data based software system:
 - Users must be able to correctly spell the food item they wish to obtain nutritional content from.
 - Users may be prompt to select from a list, which may contain food items or nutrition levels.
 - Users may be prompt to input values to view further nutritional information.
-- Users are expected to select from a set of options to view further nutritional information
+- Users are expected to select from a set of options to view further nutritional information.
 - Users are able to change the food item inputted by selecting "Home".
 - Users are expected to update the software every half-year to fix bugs and update the system.
 
