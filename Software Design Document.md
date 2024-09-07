@@ -77,9 +77,7 @@ Features and Functionalities:
 
 ### 1.3	Benefit Analysis
 
-How will this system provide value(importance) or benefit?
-This system will provide significant value to nutritionists and dietitians
-everyday users who need the nutritional content for their daily lives, which may include people who have food allergies or diabetes
+This application system will provide significant value to nutritionists and dietitians who can implement this to their structure. This will assist the consumers that are in need of nutritional content. Everyday users may also perceive this system of great value as they need the nutritional content for their daily lives, i.e. people who have food allergies or diabetes. <br/>
 A benefit of using this application system is the efficiency. Searching up a food item on a search engine will only provide users the nutrients contained in the food and their measurements whereas this system will provide the same information but more in-depth with the use of statistics e.g. nutrition breakdown displayed in charts and graphs. The system also has the option to go further more in detail by filtering the range and level of nutrients they wish to obtain which will show in a list to choose from. Another benefit is the simple layout and design of the system which everybody can use with no difficulty.
 
 ## 2. Requirements
@@ -146,7 +144,7 @@ Includes at least 5 detailed use cases, each with comprehensive descriptions and
 
 | Use Case ID      | UC-05 |
 |------------------|------|
-| Use Case Name    | Nutrition level filter |
+| Use Case Name    | xxxx |
 | Actors           | Customer |
 | Description      | xxxx |
 | Flow of Events   | xxxx |
