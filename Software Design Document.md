@@ -108,14 +108,14 @@ Example:
 Includes at least 5 detailed use cases, each with comprehensive descriptions and flows.
 
 
-| Use Case ID      | UC-01 |
-|------------------|------|
-| Use Case Name    | Food Search |
-| Actors           | Customer |
-| Description      | Customers search for foods by name. This will provide them with the nutritional information. |
-| Preconditions    | The desktop application must be downloaded and up-to-date. |
-| Flow of Events   | 1. System prompts for the food name. <br/> 2. Customer inputs the food name they require. <br/> 3. The system provides options from a list based on the spelling. <br/> 4. Customer must select the food item from the list to continue. |
-| Alternate Flow   | If the food does not appear on the list, the system will prompt the user to try again after checking the correct spelling of the food item. |
+| Use Case ID | UC-01 |
+|-------------|------|
+| Use Case Name | Food Search |
+| Actors | Customer |
+| Description | Customers search for foods by name. This will provide them with the nutritional information. |
+| Preconditions | The desktop application must be downloaded and up-to-date. |
+| Flow of Events | 1. System prompts for the food name. <br/> 2. Customer inputs the food name they require. <br/> 3. The system provides options from a list based on the spelling. <br/> 4. Customer must select the food item from the list to continue. |
+| Alternate Flow | If the food does not appear on the list, the system will prompt the user to try again after checking the correct spelling of the food item. |
 
 | Use Case ID      | UC-02 |
 |------------------|------|
