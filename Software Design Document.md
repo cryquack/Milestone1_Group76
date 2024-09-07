@@ -83,14 +83,17 @@ A benefit of using this application system is the efficiency. Searching up a foo
 ## 2. Requirements
 
 ### 2.1 User Requirements
-
-Detail how users are expected to interact with or use the program. What functionalities must the system provide from the end-user perspective? This can include both narrative descriptions and a listing of user needs. Provides a detailed narrative and list of user needs, considering a realistic fictional user.
-
-Users would want a simple software layout with an appealing design that attracts them to use this application system.
-Users are expected to download the application system onto their desktops in order to access the information
+list of user needs in a nutritional data based software system:
+- Users are expected to download the application system onto their desktops in order to access the nutritional information.
+- Users must be able to correctly spell the food item they wish to obtain nutritional content from.
+- Users may be prompt to select from a list, which may contain food items or nutrition levels.
+- Users may be prompt to input values to view further nutritional information.
+- Users are expected to select from a set of options to view further nutritional information
+- Users are able to change the food item inputted by selecting "Home".
+- Users are expected to update the software every half-year to fix bugs and update the system.
 
 ### 2.2	Software Requirements
-
+list of all necessary software functionalities in a nutritional data based software system:
 - The software shall provide users easy access to the nutritional content.
 - The application system shall have a simple and visually appealing layout to attract new users.
 - The software shall only provide nutritional information once a food item is searched.
