@@ -146,7 +146,7 @@ Includes at least 5 detailed use cases, each with comprehensive descriptions and
 
 | Use Case ID      | UC-05 |
 |------------------|------|
-| Use Case Name    | xxxx |
+| Use Case Name    | Nutrition level filter |
 | Actors           | Customer |
 | Description      | xxxx |
 | Flow of Events   | xxxx |
