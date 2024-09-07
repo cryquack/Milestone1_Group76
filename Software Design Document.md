@@ -73,7 +73,7 @@ _Features and Functionalities:_
 <br/>- Low: Less than 33% of the highest value.
 <br/>- Mid: Between 33% and 66% of the highest value.
 <br/>- High: Greater than 66% of the highest value.
-- Nutrition ...: 
+- Nutrition comparison: Enable users to compare food items by selecting "compare" and inputting the second food item to display the list of nutrients side-by-side shown in a line graph.
 
 ### 1.3	Benefit Analysis
 
@@ -86,10 +86,13 @@ A benefit of using this application system is the efficiency. Searching up a foo
 
 Detail how users are expected to interact with or use the program. What functionalities must the system provide from the end-user perspective? This can include both narrative descriptions and a listing of user needs. Provides a detailed narrative and list of user needs, considering a realistic fictional user.
 
-Note: Since no specific client or user is assigned, you may create a fictional user. Who do you envision using your software?
+Users would want a simple software layout with an appealing design that attracts them to use this application system.
 
 ### 2.2	Software Requirements
 Define the functionality the software will provide. This section should list requirements formally, often using the word "shall" to describe functionalities.
+- The software shall only provide nutritional content once a food item is searched.
+- Each food item searched will have nutritional content displaying precise measurements per 100 grams.
+- 
 
 Example Functional requirements:
 - R1.1 The program shall accept multiple file names as arguements from the command line.
@@ -144,11 +147,20 @@ Includes at least 5 detailed use cases, each with comprehensive descriptions and
 
 | Use Case ID      | UC-05 |
 |------------------|------|
-| Use Case Name    | xxxx |
+| Use Case Name    | Nutrition comparison |
 | Actors           | Customer |
-| Description      | xxxx |
+| Description      | Enable users to compare food items by selecting "compare" and inputting the second food item to display the list of nutrients side-by-side shown in a line graph. |
 | Flow of Events   | xxxx |
 | Alternate Flow   | xxxx |
+
+| Use Case ID      | UC-06 |
+|------------------|------|
+| Use Case Name    | Home |
+| Actors           | Customer |
+| Description      | Enable users to return home to input a different food item |
+| Trigger          | After a long period of inactivity or the customer selects the "Home" option |
+| Flow of Events   | 1. The customer selects "Home". <br/> 2. The system ends the session and resets back to "Home", prompting the customer to enter a food name. |
+| Postconditions   | The system returns the customer "Home", and the application is ready to be used again. |
 
 
 ## 3.	Software Design and System Components 
