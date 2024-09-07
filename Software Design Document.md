@@ -108,9 +108,9 @@ Example:
 Includes at least 5 detailed use cases, each with comprehensive descriptions and flows.
 
 
-| Use Case ID      | UC-01 |
-|------------------|------|
-| Use Case Name    | Food Search |
+| Use Case ID       | UC-01 |
+|-------------------|------|
+| Use Case Name     | Food Search |
 | Actors           | Customer |
 | Description      | Customers search for foods by name. This will provide them with the nutritional information. |
 | Preconditions    | The desktop application must be downloaded and up-to-date. |
