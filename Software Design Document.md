@@ -77,7 +77,7 @@ _Features and Functionalities:_
 
 ### 1.3	Benefit Analysis
 
-This application system will provide significant value to nutritionists and dietitians who can implement this to their structure. This will assist the consumers that are in need of nutritional content. Everyday users may also perceive this system of great value as they need the nutritional content for their daily lives, i.e. people who have food allergies or diabetes. <br/>
+This application system will provide significant value to nutritionists and dietitians who can implement this to their structure. This will assist the consumers that are seeking professional help with their diets and healthy eating by obtaining the nutritional content. Everyday users may also perceive this system of great value as they need the nutritional content for their daily lives, i.e. people who have food allergies or diabetes. <br/>
 A benefit of using this application system is the efficiency. Searching up a food item on a search engine will only provide users the nutrients contained in the food and their measurements, whereas this system will provide the same information but more in-depth with the use of statistics e.g. nutrition breakdown displayed in charts and graphs. The system also has the option to go further more in detail by filtering the range and level of nutrients they wish to obtain which will show in a list to choose from. Another benefit is the simple layout and design of the system which everybody can use with no difficulty.
 
 ## 2. Requirements
