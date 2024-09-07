@@ -94,7 +94,7 @@ Users are expected to download the application system onto their desktops in ord
 - The software shall provide users easy access to the nutritional content.
 - The application system shall have a simple and visually appealing layout to attract new users.
 - The software shall only provide nutritional information once a food item is searched.
-- Each food item can display nutritional content with precise measurements per 100 grams in a graph or chart.
+- Each food item shall display nutritional content with precise measurements per 100 grams in a graph or chart.
 - The software shall filter thorugh the dataset to provide users a list to match the nutrition range selected.
 - The software shall filter thorugh the dataset to provide users a food list with the same nutritional content level selected.
 - The software shall be able to compare the nutrients contained in two food items with a line graph.
