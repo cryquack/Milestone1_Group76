@@ -100,9 +100,7 @@ Example Functional requirements:
 - etc...
 
 ### 2.3 Use Case Diagram
-Provide a system-level Use Case Diagram illustrating all required features. Includes a complete and accurate system-level use case diagram that is well integrated with the text.
-
-Example:  
+ 
 ![Use Case Diagram](./UCD.png)
 
 ### 2.4 Use Cases
