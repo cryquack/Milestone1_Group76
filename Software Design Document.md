@@ -132,15 +132,19 @@ Includes at least 5 detailed use cases, each with comprehensive descriptions and
 | Use Case Name    | Nutrition range filter |
 | Actors           | Customer |
 | Description      | Enable users to select one of nutrition and input minimum and maximum values, and the tool will display a list of foods that fall within those ranges. |
-| Flow of Events   | 1. Customer must  |
-| Alternate Flow   | xxxx |
-| Postconditions   | The list of foods within the nutrition range is displayed and the customer has the option to "return" to select a different nutrition or exit "home" to search a different food item. |
+| Preconditions    | The customer must input a food item. |
+| Trigger          | The customer selects the "Nutrition range filter" option |
+| Flow of Events   | 1. Customer must select a nutrition from the food item search. <br/> 2. The system prompts the customer to input minimum and maximum values of the nutrition selected. <br/> 3. The system analyses the values and provides the customer with food options within the range. |
+| Alternate Flow   | If there is no food item within the value range, the system will prompt the customer to input a different range |
+| Postconditions   | The list of foods within the nutrition range is displayed and the customer has the option to exit "home" to search a different food item. |
 
 | Use Case ID      | UC-04 |
 |------------------|------|
 | Use Case Name    | Nutrition level filter |
 | Actors           | Customer |
 | Description      | Enable users to filter foods by nutritional content levels-low, mid, and high-including fat, protein, carbohydrates, sugar, sodium and nutritional density. |
+| Preconditions    | The customer must input a food item. |
+| Trigger          | The customer selects the "Nutrition level filter" option |
 | Flow of Events   | xxxx |
 | Alternate Flow   | xxxx |
 | Postconditions   | The nutritional content is shown and the customer has the option to exit "home" to search a different food item. |
@@ -150,6 +154,8 @@ Includes at least 5 detailed use cases, each with comprehensive descriptions and
 | Use Case Name    | Nutrition comparison |
 | Actors           | Customer |
 | Description      | Enable users to compare food items by selecting "compare" and inputting the second food item to display the list of nutrients side-by-side shown in a line graph. |
+| Preconditions    | The customer must input a food item. |
+| Trigger          | The customer selects the "Nutrition comparison" option |
 | Flow of Events   | xxxx |
 | Alternate Flow   | xxxx |
 
@@ -158,6 +164,7 @@ Includes at least 5 detailed use cases, each with comprehensive descriptions and
 | Use Case Name    | Home |
 | Actors           | Customer |
 | Description      | Enable users to return home to input a different food item |
+| Preconditions    | The customer must input a food item. |
 | Trigger          | After a long period of inactivity or the customer selects the "Home" option |
 | Flow of Events   | 1. The customer selects "Home". <br/> 2. The system ends the session and resets back to "Home", prompting the customer to enter a food name. |
 | Postconditions   | The system returns the customer "Home", and the application is ready to be used again. |
