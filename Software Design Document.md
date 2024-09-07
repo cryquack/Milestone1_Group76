@@ -109,7 +109,7 @@ Includes at least 5 detailed use cases, each with comprehensive descriptions and
 
 
 | Use Case ID    | UC-01 |
-|-----------------|------|
+|------------------|------|
 | Use Case Name  | Food Search |
 | Actors         | Customer |
 | Description    | Customers search for foods by name. This will provide them with the nutritional information. |
@@ -118,7 +118,7 @@ Includes at least 5 detailed use cases, each with comprehensive descriptions and
 | Alternate Flow | If the food does not appear on the list, the system will prompt the user to try again after checking the correct spelling of the food item. |
 
 | Use Case ID    | UC-02 |
-|----------------|------|
+|------------------|------|
 | Use Case Name   | Nutrition breakdown |
 | Actors         | Customer |
 | Description    | Enable users to select one food, and display pie charts & bar graphs showing the breakdown of different nutrients for the selected food. |
@@ -127,7 +127,7 @@ Includes at least 5 detailed use cases, each with comprehensive descriptions and
 | Postconditions | The nutritional content is shown and the customer has the option to exit "home" to search a different food item. |
 
 | Use Case ID    | UC-03 |
-|----------------|------|
+|------------------|------|
 | Use Case Name  | Nutrition range filter |
 | Actors         | Customer |
 | Description    | Enable users to select one of nutrition and input minimum and maximum values, and the tool will display a list of foods that fall within those ranges. |
@@ -136,7 +136,7 @@ Includes at least 5 detailed use cases, each with comprehensive descriptions and
 | Postconditions | The list of foods within the nutrition range is displayed and the customer has the option to "return" to select a different nutrition or exit "home" to search a different food item. |
 
 | Use Case ID    | UC-04 |
-|----------------|------|
+|------------------|------|
 | Use Case Name  | Nutrition level filter |
 | Actors         | Customer |
 | Description    | Enable users to filter foods by nutritional content levels-low, mid, and high-including fat, protein, carbohydrates, sugar, sodium and nutritional density. |
@@ -145,7 +145,7 @@ Includes at least 5 detailed use cases, each with comprehensive descriptions and
 | Postconditions | The nutritional content is shown and the customer has the option to exit "home" to search a different food item. |
 
 | Use Case ID    | UC-05 |
-|----------------|------|
+|------------------|------|
 | Use Case Name  | xxxx |
 | Actors         | Customer |
 | Description    | xxxx |
