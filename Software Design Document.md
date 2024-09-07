@@ -161,7 +161,7 @@ Example Functional requirements:
 | Description      | Enable users to return home to input a different food item. |
 | Preconditions    | The customer must input a food item. |
 | Trigger          | After a long period of inactivity or the customer selects the "Home" option. |
-| Flow of Events   | 1. The customer selects "Home". <br/> 2. The system ends the session and resets back to "Home", prompting the customer to enter a food name. |
+| Flow of Events   | 1. The customer selects "Home". <br/> 2. The system ends the session and resets back to "Home", prompting the customer to enter a food name.                              |
 | Postconditions   | The system returns the customer "Home", and the application is ready to be used again. |
 
 
