@@ -122,7 +122,7 @@ Users are expected to download the application system onto their desktops in ord
 | Actors           | Customer |
 | Description      | Enable users to select one food, and display pie charts & bar graphs showing the breakdown of different nutrients for the selected food. |
 | Preconditions    | The customer must input a food item. |
-| Flow of Events   | 1. System displays graphs and charts of the nutrients contained in the food. <br/> 2. Customers have the option to select the graphs and charts for more in-depth information e.g. measurements in grams and milligrams. |
+| Flow of Events   | 1. Customer must select "Nutrition breakdown" from the food item searched. <br/> 2. System displays graphs and charts of the nutrients contained in the food. <br/> 3. Customers have the option to select the graphs and charts for more in-depth information e.g. measurements in grams and milligrams. |
 | Postconditions   | The nutritional content is shown and the customer has the option to exit "home" to search a different food item. |
 
 | Use Case ID      | UC-03 |
