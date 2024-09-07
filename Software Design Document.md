@@ -27,7 +27,7 @@
   * [2. Requirements](#2-requirements)
     * [2.1 User Requirements](#21-user-requirements)
     * [2.2	Software Requirements](#22software-requirements)
-    * [2.3 Use Case Diagrams](#23-use-case-diagrams)
+    * [2.3 Use Case Diagram](#23-use-case-diagram)
     * [2.4 Use Cases](#24-use-cases)
   * [3.	Software Design and System Components](#3-software-design-and-system-components-)
     * [3.1	Software Design](#31software-design)
