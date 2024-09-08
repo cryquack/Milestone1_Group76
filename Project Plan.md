@@ -15,11 +15,11 @@
 
 Please Describe what you have accomplished in this group project.
 - s5399572, Crystal Quach
-  - Accomplishments: Describe what you have completed or achieved
+  - Accomplishments: Chrystal was responsible for the system vision which involved problem background, system capabilities and potential benefits but also the requirements with the user requirements, software requirements, use case diagram and the use case.
 - s5339515, Bakary Fall
-  - Accomplishments: Describe what you have completed or achieved
+  - Accomplishments: Bakary was responsible for project plan, wbs, activities definition and the gantt chart. 
 - s333333, Eric Lushchayev
-  - Accomplishments: Describe what you have completed or achieved
+  - Accomplishments: Eric was responsible for the software design and system components (functions, data structure/data sources, detailed design) but also the structural and visual design.
 
 <div style="page-break-after: always;"></div>
 
