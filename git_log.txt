@@ -1,0 +1,137 @@
+* 0b96129 2024-09-08 by [Bakaryfall] | Update Project Plan.md (HEAD -> main)
+* 07e5f6e 2024-09-08 by [Bakaryfall] | Update Software Design Document.md
+* 306db35 2024-09-08 by [Crystal Q] | Update Software Design Document.md
+* 18e21ec 2024-09-08 by [Crystal Q] | Update Software Design Document.md
+* 3854b26 2024-09-08 by [Crystal Q] | Update Software Design Document.md
+* 5813247 2024-09-08 by [Crystal Q] | Update Software Design Document.md
+* 5d6a0bc 2024-09-08 by [Crystal Q] | Update Software Design Document.md
+* 5836ed5 2024-09-08 by [Crystal Q] | Update Software Design Document.md
+* c1c230a 2024-09-08 by [Crystal Q] | Update Software Design Document.md
+* 639ba62 2024-09-08 by [Crystal Q] | Update Software Design Document.md
+* b5876ac 2024-09-08 by [Crystal Q] | Update Software Design Document.md
+* b26ff51 2024-09-08 by [Crystal Q] | Update Software Design Document.md
+* 9969513 2024-09-08 by [Crystal Q] | Update Software Design Document.md
+* 9943139 2024-09-08 by [ericjl333] | Update Software Design Document.md
+* 5e2e6d9 2024-09-08 by [ericjl333] | Add files via upload
+* 0441e2b 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* bc28b18 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* b82faf3 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* 22b8cee 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* d187575 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* 9892bf3 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* cb54903 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* 0aa3474 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* 6414765 2024-09-07 by [Crystal Q] | Add files via upload
+* d8b0d51 2024-09-07 by [Crystal Q] | Delete UCD.png
+* 71305ed 2024-09-07 by [Crystal Q] | Add files via upload
+* aa57e91 2024-09-07 by [Crystal Q] | Delete UCD.png
+* 648098c 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* 16f03ce 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* ae93fe5 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* 06a5672 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* 7639c21 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* 66b858a 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* 32b62e6 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* 24d2d12 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* 8fd6df9 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* 81f08b4 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* 1dfd3bc 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* d67da5e 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* 30d3cb8 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* 574d9f3 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* a06f444 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* e85290d 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* 3c474b8 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* 4b2339a 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* 3fa58f0 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* 0cf5649 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* f4cecbb 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* b340612 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* e1c2693 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* 2d698fa 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* 462b154 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* a49604b 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* 718e7b4 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* 7255722 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* 106c640 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* e1b5e30 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* f1112e8 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* 7e36c9b 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* 7864b8a 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+* b423ae1 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+*   c31539f 2024-09-07 by [Bakaryfall] | Merge branch 'main' of https://github.com/cryquack/Milestone1_Group76
+|\  
+| * e6de310 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+| * d7b7127 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+| * 15df8b1 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+| * c7c689b 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+| * 2aa1544 2024-09-07 by [Crystal Q] | Update Software Design Document.md
+| * b07dc39 2024-09-06 by [Crystal Q] | Update Software Design Document.md
+| * 5b83cc3 2024-09-06 by [Crystal Q] | Update Software Design Document.md
+| * d5cb51b 2024-09-06 by [Crystal Q] | Update Software Design Document.md
+| * 7d6b87a 2024-09-06 by [Crystal Q] | Update Software Design Document.md
+| * 5d8e11a 2024-09-06 by [Crystal Q] | Update Software Design Document.md
+| * eccb682 2024-09-05 by [ericjl333] | Update Software Design Document.md
+| * 26569d3 2024-09-05 by [ericjl333] | Update Software Design Document.md
+| * 1eb98db 2024-09-05 by [ericjl333] | Rename 4.1 v.png to 4.1_heirarchy.png
+| * 5f8b8db 2024-09-05 by [ericjl333] | Rename 3.1 fc.png to 3.1_flowchart.png
+| * cbe7cc8 2024-09-05 by [ericjl333] | Add files via upload
+| * cf3ce31 2024-09-05 by [ericjl333] | Add files via upload
+* | ed407b4 2024-09-07 by [Bakaryfall] | Update Project Plan.md
+|/  
+* 5eeba71 2024-09-03 by [Bakaryfall] | Update Project Plan.md
+* 41c9719 2024-09-03 by [Bakaryfall] | Update Project Plan.md
+* 4fa9e69 2024-09-03 by [Bakaryfall] | Update Project Plan.md
+* d71ae67 2024-09-03 by [Bakaryfall] | Rename Gantt chart.png to Gantt_chart.png
+* 460501b 2024-09-03 by [Bakaryfall] | Delete Gantt_chart.png
+* 066173a 2024-09-03 by [Bakaryfall] | Update Project Plan.md
+* d285518 2024-09-03 by [Bakaryfall] | Add files via upload
+* b9137ba 2024-09-03 by [Bakaryfall] | Delete WBS.jpg
+* 40e29a0 2024-09-03 by [Bakaryfall] | Rename Gantt chart copy.xlsx to Gantt chart.xlsx
+* 1596439 2024-09-03 by [Bakaryfall] | Delete Gantt chart.xlsx
+*   3debef5 2024-09-03 by [Bakaryfall] | Merge branch 'main' of https://github.com/cryquack/Milestone1_Group76
+|\  
+| * b7e9c55 2024-09-03 by [Crystal Q] | Update Software Design Document.md
+* | 8c18f8a 2024-09-03 by [Bakaryfall] | Update Project Plan.md
+|/  
+* 40f6df4 2024-09-03 by [Crystal Q] | Update Software Design Document.md
+* 77c9fba 2024-09-03 by [Bakaryfall] | Add files via upload
+* abe5c51 2024-09-03 by [Crystal Q] | Update Software Design Document.md
+* 4ef5853 2024-09-03 by [Bakaryfall] | Rename Diagram (wbs).png to Diagram.png
+* a65f9c4 2024-09-03 by [Bakaryfall] | Add files via upload
+* 008fb40 2024-09-03 by [Bakaryfall] | Delete Diagram.png
+* 8ab3fcb 2024-09-03 by [Bakaryfall] | Update Project Plan.md
+* f911372 2024-09-03 by [Bakaryfall] | Add files via upload
+* c86838a 2024-09-01 by [Crystal Q] | Update Software Design Document.md
+* 011b679 2024-08-27 by [Crystal Q] | Update Project Plan.md
+* fa18b87 2024-08-27 by [Crystal Q] | Update Software Design Document.md
+* b3f1d4e 2024-08-27 by [Crystal Q] | Update Software Design Document.md
+* d8a77b2 2024-08-27 by [Crystal Q] | Update Software Design Document.md
+* 99e5658 2024-08-27 by [Crystal Q] | Update Software Design Document.md
+* 4dce54b 2024-08-27 by [Crystal Q] | Update Software Design Document.md
+* 30aff0d 2024-08-27 by [Crystal Q] | Update Software Design Document.md
+* e4b0e1b 2024-08-27 by [Crystal Q] | Update Software Design Document.md
+* dad322a 2024-08-27 by [Crystal Q] | Update Software Design Document.md
+* d51bb0c 2024-08-27 by [Crystal Q] | Update Software Design Document.md
+* 62f64d6 2024-08-27 by [Crystal Q] | Update Software Design Document.md
+* 1a1382a 2024-08-27 by [Crystal Q] | Update Software Design Document.md
+* 9de2fbd 2024-08-27 by [Bakaryfall] | Update Project Plan.md
+* 2d59e04 2024-08-27 by [Bakaryfall] | Update Project Plan.md
+* b2a37d2 2024-08-27 by [Bakaryfall] | Update Project Plan.md
+* 6caf674 2024-08-27 by [Bakaryfall] | Update Project Plan.md
+* 2437f7b 2024-08-27 by [Bakaryfall] | Update Project Plan.md
+* b608be0 2024-08-27 by [Bakaryfall] | Update Project Plan.md
+* e0d03a7 2024-08-27 by [Bakaryfall] | Update Project Plan.md
+* dbf60e4 2024-08-27 by [Crystal Q] | Update Software Design Document.md
+* b71da6b 2024-08-27 by [Crystal Q] | Update Software Design Document.md
+* f6b1fdc 2024-08-27 by [Crystal Q] | Update Software Design Document.md
+* 07d8414 2024-08-27 by [Crystal Q] | Update Software Design Document.md
+* e0e8e45 2024-08-27 by [Bakaryfall] | Update Project Plan.md
+* 940de74 2024-08-27 by [Crystal Q] | Update Project Plan.md
+* 1290187 2024-08-27 by [Crystal Q] | Update Project Plan.md
+* a5808a2 2024-08-27 by [Bakaryfall] | Update Project Plan.md
+* 13e0dac 2024-08-27 by [Bakaryfall] | Update Project Plan.md
+* 714895d 2024-08-26 by [cryquack] | Update README.md
+* 897db14 2024-08-26 by [cryquack] | Add files via upload
+* f734cbe 2024-08-26 by [cryquack] | Update .gitignore
+* 30b8d00 2024-08-26 by [cryquack] | Initial commit
