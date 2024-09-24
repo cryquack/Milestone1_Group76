@@ -1,7 +1,7 @@
 # Coverage Testing Report
 
 Please provide your GitHub repository link.
-### GitHub Repository URL: https://github.com/XXXX/XXXXX.git
+### GitHub Repository URL: https://github.com/cryquack/Milestone1_Group76.git
 
 ---
 
