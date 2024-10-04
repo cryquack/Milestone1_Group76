@@ -10,7 +10,7 @@ the five required features.</span> There is no need to test the GUI components. 
 You should perform statement coverage testing and branch coverage testing. For each type, provide a description and an analysis explaining how you evaluated the coverage.
 
 ## 1. **Test Summary**
-list all tested functions related to the five required features:
+All tested functions related to the five required features:
 
 | **Tested Functions**                 |
 |--------------------------------------|
@@ -28,7 +28,6 @@ list all tested functions related to the five required features:
 
 ### 2.1 Description
 
-Explain how you designed the test cases (i.e., test_all_functions.py) to reach 100% statement coverage.
 To achieve 100% statement coverage in test_all_functions.py, I ensured that every line of code in each function was executed at least once during testing. The test cases were designed to cover both typical and edge cases, ensuring that all paths in the code were exercised. For the search_food_by_name function, I included test cases that covered the loop and conditional statements. The first test involved searching for an existing food item ("Apple"), which ensured that the loop iterated through the database and correctly identified matches. The second test case involved searching for a non-existing food item ("Orange"), triggering the condition where no matches are found and ensuring the "else" clause that returns "No matching foods found" was executed.
 
 For the filter_food_by_nutritional_range function, I designed test cases to cover the loop and conditional logic used to filter foods. One test case checked a valid range that included foods, such as filtering by "Protein" between 1.0 and 2.0. Another test case used an edge condition where no foods matched the specified criteria, like filtering "Fat" between 4.0 and 5.0. This test ensured the branch that returns "No foods found in the specified nutrient range" was executed. In the filter_food_by_nutritional_level function, the test cases were designed to evaluate each of the possible levels ("low," "mid," and "high") for a nutrient. These tests ensured that all conditional branches were evaluated, including cases where no foods matched the specified level, which exercised the "else" clause that returns "No foods found at the specified nutritional level."
