@@ -112,25 +112,25 @@ def test_divide_invalid():
 
 ### Test Case 3:
 - **Test Function/Module**
-  - `test_divide_valid()`
-  - `test_divide_invalid()`
+  - `test_calculate_density()`
 - **Tested Function/Module**
-  - `divide(a, b)`
+  - `calculate_nutrition_density(food_list)`
 - **Description**
-  - A brief description of the tested function's usage, including its purpose, input, and output.
+  - The calculate_nutrition_density function calculates the nutritional density of a list of food items, which could be based on a formula like nutritional value per 100g. It returns a dictionary or list of items with calculated densities.
+
 - **1) Valid Input and Expected Output**  
 
 | **Valid Input**               | **Expected Output** |
 |-------------------------------|---------------------|
-| `divide(10, 2)`               | `5`                 |
-| `divide(10, -2)`              | `-5`                |
-| `add more cases in necessary` | `...`               |
+| `calculate_nutrition_density(food_list)`               | `Dictionary/list with nutritional density values`                 |
 
 - **1) Code for the Test Function**
 ```python
-def test_divide_valid():
-    assert divide(10, 2) == 5
-    assert divide(10, -2) == -5
+def test_calculate_density():
+    result = calculate_nutrition_density(food_list)
+    assert isinstance(result, list)  # or dict, depending on the implementation
+    assert len(result) == len(food_list)  # Ensure all items were processed
+
 ```
 - **2) Invalid Input and Expected Output**
 
@@ -149,25 +149,29 @@ def test_divide_invalid():
 
 ### Test Case 4:
 - **Test Function/Module**
-  - `test_divide_valid()`
-  - `test_divide_invalid()`
+  - `test_find_food_valid()`
+  - `test_find_food_invalid()`
 - **Tested Function/Module**
-  - `divide(a, b)`
+  - `find_food_by_name(food_list, name)`
 - **Description**
-  - A brief description of the tested function's usage, including its purpose, input, and output.
+  - The find_food_by_name function searches for a food item by name from a given list of foods. It returns the food item if found, otherwise returns None.
+
 - **1) Valid Input and Expected Output**  
 
 | **Valid Input**               | **Expected Output** |
 |-------------------------------|---------------------|
-| `divide(10, 2)`               | `5`                 |
-| `divide(10, -2)`              | `-5`                |
-| `add more cases in necessary` | `...`               |
+| `ind_food_by_name(food_list, 'Apple')`               | `Food item dictionary for 'Apple'`                 |
+| `find_food_by_name(food_list, 'Banana')`              | `Food item dictionary for 'Banana'`                |
 
 - **1) Code for the Test Function**
 ```python
-def test_divide_valid():
-    assert divide(10, 2) == 5
-    assert divide(10, -2) == -5
+def test_find_food_valid():
+    apple = find_food_by_name(food_list, 'Apple')
+    assert apple['name'] == 'Apple'
+
+def test_find_food_invalid():
+    unknown_food = find_food_by_name(food_list, 'Unknown')
+    assert unknown_food is None
 ```
 - **2) Invalid Input and Expected Output**
 
@@ -187,25 +191,25 @@ def test_divide_invalid():
 
 ### Test Case 5:
 - **Test Function/Module**
-  - `test_divide_valid()`
-  - `test_divide_invalid()`
+  - `test_sort_foods()`
 - **Tested Function/Module**
-  - `divide(a, b)`
+  - `sort_foods_by_calories(food_list)`
 - **Description**
-  - A brief description of the tested function's usage, including its purpose, input, and output.
+  - The sort_foods_by_calories function sorts a list of food items based on their calorie content, in ascending or descending order. It returns the sorted list.
+
 - **1) Valid Input and Expected Output**  
 
 | **Valid Input**               | **Expected Output** |
 |-------------------------------|---------------------|
-| `divide(10, 2)`               | `5`                 |
-| `divide(10, -2)`              | `-5`                |
-| `add more cases in necessary` | `...`               |
+| `sort_foods_by_calories(food_list)`               | `List sorted by calorie content (ascending/descending)`                 |
+
 
 - **1) Code for the Test Function**
 ```python
-def test_divide_valid():
-    assert divide(10, 2) == 5
-    assert divide(10, -2) == -5
+def test_sort_foods():
+    sorted_foods = sort_foods_by_calories(food_list)
+    assert sorted_foods == sorted(food_list, key=lambda x: x['calories'])
+
 ```
 - **2) Invalid Input and Expected Output**
 
@@ -223,8 +227,51 @@ def test_divide_invalid():
 ```
 
 ### Test Case 6:
+- **Test Function/Module**
+  - `test_compare_foods_valid()`
+  - `test_compare_foods_invalid()
+`
 
-add more test cases if necessary.
+- **Tested Function/Module**
+  - `compare_foods(food1, food2)`
+- **Description**
+  - The compare_foods function compares two food items based on attributes such as calorie content or nutritional value. It returns a comparison result (e.g., "Food1 has more calories than Food2").
+
+
+- **1) Valid Input and Expected Output**  
+
+| **Valid Input**               | **Expected Output** |
+|-------------------------------|---------------------|
+| `compare_foods(food_item1, food_item2)`               | `"Banana has more calories than Apple"`                 |
+
+
+- **1) Code for the Test Function**
+```python
+def test_compare_foods_valid():
+    result = compare_foods(food_item1, food_item2)
+    assert result == "Banana has more calories than Apple"
+def test_compare_foods_invalid():
+    invalid_food = {"name": "Banana", "calories": 105}  # Missing other attributes
+    with pytest.raises(KeyError) as exc_info:
+        compare_foods(food_item1, invalid_food)
+    assert exc_info.type is KeyError
+
+
+```
+- **2) Invalid Input and Expected Output**
+
+| **Invalid Input**             | **Expected Output** |
+|-------------------------------|---------------------|
+| `divide(10, 0)`               | `Handle Exception`  |
+| `add more cases in necessary` | `...`               |
+
+- **2) Code for the Test Function**
+```python
+def test_divide_invalid():
+    with pytest.raises(ValueError) as exc_info:
+        divide(10, 0)
+    assert exc_info.type is ValueError
+```
 
 ## 3. **Testing Report Summary**
 Include a screenshot of unit_test.html showing the results of all the above tests. 
