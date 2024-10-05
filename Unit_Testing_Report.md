@@ -132,7 +132,7 @@ def test_filter_invalid():
 ```python
 def test_calculate_density():
     result = calculate_nutrition_density(food_list)
-    assert isinstance(result, list)  # or dict, depending on the implementation
+    assert isinstance(result, list)  # or dict, it depends on the implementation
     assert len(result) == len(food_list)  # Ensure all items were processed
 
 ```
