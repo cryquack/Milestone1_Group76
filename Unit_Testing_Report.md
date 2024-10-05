@@ -20,6 +20,8 @@ those functions, for example:
 | `calculate_nutrition_density(food_list)`      | `test_calculate_density()` |
 | `find_food_by_name(food_list, name)`         | `test_find_food_valid(), test_find_food_invalid()`       |
 | `sort_foods_by_calories(food_list) `     | `test_sort_foods`|
+| `compare_foods(food1, food2)	 `     | `test_compare_foods_valid(), test_compare_foods_invalid()`|
+
 
 ---
 
