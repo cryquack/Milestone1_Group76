@@ -304,6 +304,8 @@ You can use the following command to run the unit tests and generate the unit_te
 ```commandline
 pytest test_all_functions.py --html=unit_test.html --self-contained-html
 ```
+![unit_test_summary](./screenshot_ud.png)
+
 Note: test_all_functions.py should contain all the test functions designed to test the self-defined functions related 
 to the five required features.
 
