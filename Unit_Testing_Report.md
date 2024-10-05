@@ -99,14 +99,18 @@ def test_filter_high():
 
 | **Invalid Input**             | **Expected Output** |
 |-------------------------------|---------------------|
-| `divide(10, 0)`               | `Handle Exception`  |
-| `add more cases in necessary` | `...`               |
+| `filter_by_nutrition_level(food_list, 'invalid')`               | `Raise ValueError`  |
+| `filter_by_nutrition_level(food_list, None)` | `Raise ValueError`               |
 
 - **2) Code for the Test Function**
 ```python
-def test_divide_invalid():
+def test_filter_invalid():
     with pytest.raises(ValueError) as exc_info:
-        divide(10, 0)
+        filter_by_nutrition_level(food_list, 'invalid')
+    assert exc_info.type is ValueError
+
+    with pytest.raises(ValueError) as exc_info:
+        filter_by_nutrition_level(food_list, None)
     assert exc_info.type is ValueError
 ```
 
@@ -136,15 +140,19 @@ def test_calculate_density():
 
 | **Invalid Input**             | **Expected Output** |
 |-------------------------------|---------------------|
-| `divide(10, 0)`               | `Handle Exception`  |
-| `add more cases in necessary` | `...`               |
+| `calculate_nutrition_density(None)`               | `Raise ValueError`  |
+| `calculate_nutrition_density([])` | `Return empty list`               |
 
 - **2) Code for the Test Function**
 ```python
-def test_divide_invalid():
+def test_calculate_density_invalid():
     with pytest.raises(ValueError) as exc_info:
-        divide(10, 0)
+        calculate_nutrition_density(None)
     assert exc_info.type is ValueError
+
+    assert calculate_nutrition_density([]) == []
+
+
 ```
 
 ### Test Case 4:
@@ -177,15 +185,22 @@ def test_find_food_invalid():
 
 | **Invalid Input**             | **Expected Output** |
 |-------------------------------|---------------------|
-| `divide(10, 0)`               | `Handle Exception`  |
-| `add more cases in necessary` | `...`               |
+| `find_food_by_name(food_list, 'Unknown')`               | `Return None`  |
+| `find_food_by_name(food_list, '')` | `Return None`               |
+| `find_food_by_name(food_list, None)` | `Raise ValueError`               |
 
 - **2) Code for the Test Function**
 ```python
-def test_divide_invalid():
+def test_find_food_invalid():
+    unknown_food = find_food_by_name(food_list, 'Unknown')
+    assert unknown_food is None
+
+    assert find_food_by_name(food_list, '') is None
+
     with pytest.raises(ValueError) as exc_info:
-        divide(10, 0)
+        find_food_by_name(food_list, None)
     assert exc_info.type is ValueError
+
 ```
 
 
@@ -215,15 +230,17 @@ def test_sort_foods():
 
 | **Invalid Input**             | **Expected Output** |
 |-------------------------------|---------------------|
-| `divide(10, 0)`               | `Handle Exception`  |
-| `add more cases in necessary` | `...`               |
+| `sort_foods_by_calories(None)`               | `Raise ValueError`  |
+| `sort_foods_by_calories([])` | `Return empty list`               |
 
 - **2) Code for the Test Function**
 ```python
-def test_divide_invalid():
+def test_sort_foods_invalid():
     with pytest.raises(ValueError) as exc_info:
-        divide(10, 0)
+        sort_foods_by_calories(None)
     assert exc_info.type is ValueError
+
+    assert sort_foods_by_calories([]) == []
 ```
 
 ### Test Case 6:
@@ -262,15 +279,21 @@ def test_compare_foods_invalid():
 
 | **Invalid Input**             | **Expected Output** |
 |-------------------------------|---------------------|
-| `divide(10, 0)`               | `Handle Exception`  |
-| `add more cases in necessary` | `...`               |
+| `compare_foods(food_item1, invalid_food)`               | `Raise KeyError`  |
+| `compare_foods(None, food_item2)`               | `Raise ValueError`  |
 
 - **2) Code for the Test Function**
 ```python
-def test_divide_invalid():
+def test_compare_foods_invalid():
+    invalid_food = {"name": "Banana", "calories": 105}  # Missing other attributes
+    with pytest.raises(KeyError) as exc_info:
+        compare_foods(food_item1, invalid_food)
+    assert exc_info.type is KeyError
+
     with pytest.raises(ValueError) as exc_info:
-        divide(10, 0)
+        compare_foods(None, food_item2)
     assert exc_info.type is ValueError
+
 ```
 
 ## 3. **Testing Report Summary**
