@@ -16,7 +16,11 @@ those functions, for example:
 |----------------------|--------------------------------------------------|
 | `add(x1,x2)`         | `test_add_valid()` <br> `test_add_invalid`       |
 | `divide(x1,x2)`      | `test_divide_valid()` <br> `test_divide_invalid` |
-| `...`                | `...`                                            |
+|filter_by_nutrition_level(food, level)	    | test_filter_low(), test_filter_mid(), test_filter_high()      |
+| `calculate_nutrition_density(food_list)      | `test_calculate_density()` |
+| `find_food_by_name(food_list, name)         | `test_find_food_valid(), test_find_food_invalid()`       |
+| `sort_foods_by_calories(food_list)      | `test_sort_foods()
+` |
 
 ---
 
