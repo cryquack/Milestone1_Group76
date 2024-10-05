@@ -65,25 +65,35 @@ def test_divide_invalid():
 ```
 ### Test Case 2:
 - **Test Function/Module**
-  - `test_divide_valid()`
-  - `test_divide_invalid()`
+  - `test_filter_low()`
+  - `test_filter_mid()`
+  - `test_filter_high()`
 - **Tested Function/Module**
-  - `divide(a, b)`
+  - `filter_by_nutrition_level(food, level)`
 - **Description**
-  - A brief description of the tested function's usage, including its purpose, input, and output.
+  -The filter_by_nutrition_level function filters a list of food items based on a specified nutritional level ('low', 'mid', or 'high'). It returns a list of foods that match the given level criteria.
 - **1) Valid Input and Expected Output**  
 
 | **Valid Input**               | **Expected Output** |
 |-------------------------------|---------------------|
-| `divide(10, 2)`               | `5`                 |
-| `divide(10, -2)`              | `-5`                |
-| `add more cases in necessary` | `...`               |
+| `filter_by_nutrition_level(food_list, 'low')`               | `List of foods with low nutritional levels`                 |
+| `filter_by_nutrition_level(food_list, 'mid')`              | `List of foods with mid nutritional levels
+`                |
+| `filter_by_nutrition_level(food_list, 'high')` | `List of foods with high nutritional levels`               |
 
 - **1) Code for the Test Function**
 ```python
-def test_divide_valid():
-    assert divide(10, 2) == 5
-    assert divide(10, -2) == -5
+def test_filter_low():
+    result = filter_by_nutrition_level(food_list, 'low')
+    assert len(result) == expected_low_count
+
+def test_filter_mid():
+    result = filter_by_nutrition_level(food_list, 'mid')
+    assert len(result) == expected_mid_count
+
+def test_filter_high():
+    result = filter_by_nutrition_level(food_list, 'high')
+    assert len(result) == expected_high_count
 ```
 - **2) Invalid Input and Expected Output**
 
