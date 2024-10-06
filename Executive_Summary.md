@@ -17,8 +17,6 @@ Enable users to search for foods by name and display all the nutritional informa
 ### Screenshots
 ![1](./visual_design.png)
 
-![2](./visual_design.png)
-
 ---
 
 ## 2. Nutrition Breakdown
@@ -32,8 +30,6 @@ Enable users to select one food, and display pie charts & bar graphs showing the
 
 ### Screenshots
 ![1](./visual_design.png)
-
-![2](./visual_design.png)
 
 ---
 
@@ -50,8 +46,6 @@ Enable users to select one of nutrition and input minimum and maximum values, an
 
 ### Screenshots 
 ![1](./visual_design.png)
-
-![2](./visual_design.png)
 
 
 ---
@@ -72,8 +66,6 @@ Enable users to filter foods by nutritional content levels-low, mid, and high-in
 ### Screenshots   
 ![1](./visual_design.png)
 
-![2](./visual_design.png)
-
 
 ---
 
@@ -89,8 +81,6 @@ Enable users to compare the nutrients contained in the food items by selecting "
 
 ### Screenshots    
 ![1](./visual_design.png)
-
-![2](./visual_design.png)
 
 
 ---
