@@ -15,7 +15,6 @@ Enable users to search for foods by name and display all the nutritional informa
 4. Customer must select the food item from the list based on the spelling.
 
 ### Screenshots
-Include screenshots for each step demonstrating the use of this feature.  
 ![1](./visual_design.png)
 
 ![2](./visual_design.png)
@@ -32,7 +31,6 @@ Enable users to select one food, and display pie charts & bar graphs showing the
 3. Customers have the option to select the graphs and charts for more in-depth information e.g. measurements in grams and milligrams.
 
 ### Screenshots
-Include screenshots for each step demonstrating the use of this feature.  
 ![1](./visual_design.png)
 
 ![2](./visual_design.png)
@@ -50,8 +48,7 @@ Enable users to select one of nutrition and input minimum and maximum values, an
 4. The system displays a list to the customer with the food options within the value range.
 5. Customer can select a food item and view the "Nutrition Breakdown"
 
-### Screenshots
-Include screenshots for each step demonstrating the use of this feature.    
+### Screenshots 
 ![1](./visual_design.png)
 
 ![2](./visual_design.png)
@@ -72,8 +69,7 @@ Enable users to filter foods by nutritional content levels-low, mid, and high-in
 3. The system verifies the selection and breaks down the dataset that match.
 4. The system loads in a list of foods with the same nutritional content level.
 
-### Screenshots
-Include screenshots for each step demonstrating the use of this feature.    
+### Screenshots   
 ![1](./visual_design.png)
 
 ![2](./visual_design.png)
@@ -91,8 +87,7 @@ Enable users to compare the nutrients contained in the food items by selecting "
 3. The system analyses the two food items selected from the dataset.
 4. The system displays a line graph that compares the nutrients contained in the two food items.
 
-### Screenshots
-Include screenshots for each step demonstrating the use of this feature.    
+### Screenshots    
 ![1](./visual_design.png)
 
 ![2](./visual_design.png)
